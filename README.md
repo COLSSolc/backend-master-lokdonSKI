@@ -74,7 +74,7 @@ o perhaps, you've generated some fancy text, and you're content that you can now
 
 Well, the answer is actually no - rather than generating fancy fonts, this converter creates fancy symbols. The explanation starts with unicode; an industry standard which creates the specification for thousands of different symbols and characters. All the characters that you see on your electronic devices, and printed in books, are likely specified by the unicode standard.
 
-Although we mentioned ASCII wide-char, the unicode were put in use here. You can run this on cryptool to see how it defies today's analysis of cryptogrphy.
+Although we mentioned ASCII wide-char, the unicode were put in use for java users. You can run this on cryptool to see how it defies today's analysis of cryptogrphy.
 CONCLUSION:
 The solution is another potent and simple approach to presenting a quantum-immune cryptography. This simplifies the complexity to the understing the work of cryptography done with primitives of lattice basis.
 Check this out-->>
