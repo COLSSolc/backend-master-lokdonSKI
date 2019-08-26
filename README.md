@@ -2,10 +2,11 @@
 Secret key infrastructure
 
 ***********************************************************************!
-***********************************************************************!
-LokDon security project: Josiah Johnson Umezurike and Ravi Prakash. This document is a brief of the 15+ years work done. We are not mathematicians. We only want to solve the common problems of the computing world. We are aware of the havoc quantum computing will bring to the modern cryptography. Thus we have prepared ourselves a decade in advance. We have used AES to develope ECSMID. This is a low cost high entropy End-point to end-point Cryptographic System for Mobile and IoT Devices.********************************************!  
-***********************************************************************!
-Package demonstration contents>>                                        \___
+*******************************************************************************************************************************!
+LokDon security project: Josiah Johnson Umezurike. This document is a brief of the 17+ years work. We are not mathematicians. We only want to solve the common problems of the computing world. We are aware of the havoc quantum computing will bring to the modern cryptography. Thus we have prepared ourselves a decade in advance. We have used AES to develope ECSMID a 2048-Bit AES-hybrid. This is a low cost high entropy End-point to end-point Cryptographic System for Mobile and IoT Devices.This system is a category of hard NP problems closely related to numbered faces of a lattice in grid basis.
+*******************************************************************************************************************************!  
+*******************************************************************************************************************************!
+Package demonstration contents>>                                                                                            \___
                                                                            
 1. KnightSolver.cpp (This solves the open knights tour with numbers >> KT)
 2. st.cpp   (This is the unicode component order of written or spoken words >> ST)
@@ -29,39 +30,38 @@ All are totaled at 256 bytes (2048 bits)
 
 OBJECTIVE:
 To show that there is a cryptographic approach that fits into the ideal
-quantum cryptography. A low cost, pervasive and high entropy that increases
-AES capacity to about 10 times. Thereby, mitigates the effects of 
+quantum cryptography. Lattice basis is just an image of what is already there. A low cost, pervasive and high entropy that increases AES capacity to roughly 10 times. Thereby, mitigates the effects of 
 post-quantum breaches.
 
 NEW APPROACH or AXIOMS:
 
 1. GF 2^p where p =< 8; ->  GF 2^p where p !<8 && p > 8 || 00 (or goes to infinity).
 
-2. Non-Deterministic Polynomial problems (hard problems) are reconsidered for 16 * 16 matrix e.g We embodied KT as a hard (NP-Complete) problem with no other complexity to derive ciphertext from cryptographic engine if not by O(m)in space-time. 
+2. Non-Deterministic Polynomial problems (hard problems) are reconsidered for 16 * 16 matrix e.g We embodied KT as a hard (NP-Complete) problem with no other complexity to derive ciphertext from cryptographic engine if not by O(m)in space-time. It is also noted that this very very originates lattice based cryptogrphy.
 
-3. Knight's tour of any size could be solved in non-polynomial time deterministic reduction. The bigger the scope the more time it will take to solve. Balancing symmetric stream of block key size, encryption time and implementation could yield the cryptography of the future.
+3. Knight's tour of any size could be solved in non-polynomial time; deterministic reduction. The bigger the scope the more time it will take to solve. Balancing symmetric stream of block (key) size, encryption time and implementation could yield the cryptography of the future.
 
 4. Similarly, AES exhibits the characteristics observed by the movement of the values held in the indices of GF of scope 16 * 16 matrix. Each knight' tour opens at 0 position by tracing a clean sweep the elements of the matrix and closes at another position 255. Therefore, the new approach reflects:
 a. Sub bytes
 b. Addroundkeys
 c. shiftrow
 d. mixcolumns
-Using a mapping scheme of ST to KT and multi-mode-wrapping to achieve the aforementioned mechanism. Irreducible polynomial is no longer a question of symmetric cryptography. No key schedule or register.			                                     
+Using a mapping scheme of ST to KT and multi-mode-wrapping to achieve the aforementioned mechanism. Irreducible polynomial is no longer a question of symmetric cryptography. No key schedule or register. You can equally draw an anology of 3-D space e.g a cube. A cube has faces (6), edges(12) and vertices(8). We are using the faces here: They have the largest number of vectors vis-a-vis largest flux. 			                                     
 									   	     
-5. Cipher keys (P) are no longer saved as they are generated from any position of the matrix upon request by NP. Each position has a different set of numbers. 5 sets of (680 long digits) from 5 different positions are chosen from the matrix of 16*16 (256 bytes or 2048 bits) arranged into n=5 different modes of encrypt for each payload fed into m1-m5.							     
+5. Cipher keys (P) are no longer saved as they are generated from any position on the matrix (lattice face) upon request by NP. Each position has a different set of numbers to be generated. 5 sets of (680 long digits) from 5 different positions are chosen from the matrix of 16*16 (256 bytes or 2048 bits). Attributes are chosen prior to be arranged into n=5 different modes of encrypt for each attibute or payload fed into mode one all the way to mode five (m1-m5).							     
 										     
-5. The keys always change for any single message thus the message ciphertext changes as well. When similar contents are encrypted the ciphertext are usually different. Thus, hashing could only be needed for CRC or message integrity check.  P!= NP || P not a subset NP.                                               
+5. The keys always change for any single message because the position on the latice face changes. This generates a new set of 680 digit long numbers. This knowlodge reveals the changing nature of the message ciphertext as well. When similar contents are encrypted the ciphertext are usually different. Thus, hashing could only be needed for CRC or message integrity check.  P!= NP || P not a subset NP.                                               
 
 ASSUMPTIONS:									     		
 1. Modern cryptography only recognizes 2S or 2 stable standard signal state. e.g 0/1  
 2. Post-quantum cryptography must recognize 4S or 4 stable standard signal state.e.g various atomic state or photon’ polarization.
 3. O(message.length) complexity                    
 										    
-****************************************************************
-CONCLUSION:****************************************************************
+*******************************************************************************************************************************
+CONCLUSION:
 It is true that one might not draw a conclusion based on the information provided. Mathematical functions alone can no longer lead the cryptography in the age of quantum computing. We believe this method is fast backward compatible on hardware/software, transparent, visible and open to changes by permission. We have built several applications with this to note the interesting flow of this security architecture. Many other implementations of this skeleton abound. Let us know what you think and what you will do with this
 
-****************************************************************
+*******************************************************************************************************************************
 
 Sample CIPHERTEXT of ECSMID. 
 
@@ -78,6 +78,6 @@ Well, the answer is actually no - rather than generating fancy fonts, this conve
 
 
 
-Although we mentioned ASCII wide-char unicode were used. You can run this on cryptool to see how it defies it.
+Although we mentioned ASCII wide-char, the unicode were put in use here. You can run this on cryptool to see how it defies today's analysis of cryptogrphy.
 
 
