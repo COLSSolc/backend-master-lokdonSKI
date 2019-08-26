@@ -2,7 +2,7 @@
 
 *******************************************************************************************************************************!
 *******************************************************************************************************************************!
-LokDon security project: Josiah Johnson Umezurike. This document is a brief of the 17+ years work. We are not mathematicians. We only want to solve the common problems of the computing world. We are aware of the havoc quantum computing will bring to the modern cryptography. Thus we have prepared ourselves a decade in advance. We have used AES to develope ECSMID a 2048-Bit AES-hybrid. This is a low cost high entropy End-point to end-point Cryptographic System for Mobile and IoT Devices.This system is a category of hard NP problems closely related to numbered faces of a lattice in grid basis.
+LokDon security project: Josiah Johnson Umezurike and Ravi Prakash. This document is a brief description of the 20+ years work. We are not mathematicians. We only want to solve the common problems of the computing world. We are aware of the havoc quantum computing will bring to the modern cryptography. Thus we have prepared ourselves a decade in advance. We have used AES to develope ECSMID a 2048-Bit AES-hybrid. This is a low cost high entropy End-point to end-point Cryptographic System for Mobile and IoT Devices.This system is a category of hard NP problems closely related to numbered faces of a lattice in grid basis.
 *******************************************************************************************************************************!  
 *******************************************************************************************************************************!
 Package demonstration contents>>                                                                                            \___
@@ -69,14 +69,14 @@ Sample CIPHERTEXT of ECSMID.
 #2 CIPHERTEXT
 Ä‰Ä´VÄºÂ´Ã°Ã†Ä”Ä¸VÂ¹Ã{Ãº!Q^;Ä½4Ä§'_Ã¬MÂ·Ä¶Ã²Ä¦ÄœZÃ‚Ä²WÂ±IÂ«Â¢Ã€HÂ±@Ã¹Ã¬Ä•Â¡Ã4Ã«XÄ‘Ã…hMÃ·ÃŒÄ§Â¸&ÄÃ¡Ä¹Ä›xÃŸ<Â¡Ä•Ä¤[rÃ¼Ä¬1bÃ…Â³Ä¶Â¬Ã½Ãƒ_!Ä£Ã¨Ä„Ã˜jÄŸÄ§9`ÂµÄ°FÃ»ÄŸDÂ¥Ä»Ä§Â¥XÄ‰Ã¤C9Ä‹Ä•Ä©{Ä¾ÃŽÂ·Ã™ÄŒÂ­ pÃ²Ä¢Ã“Ã£-#Ä›XÃ¦Ä„*ÂºÃ±Ä¼Ã¬Ã‚ÄªÄ›Ã°ÃÅ€Ã_ÄÃ¡aÃ°Â«Ã­Ä»Â¼JÂ­Ã‘Ä BÃµÄœÂ«SÃ°aÂªÃ—Ã­'PÄ±ÅÄ©ÃŠÃ¹Ã»Ä½!ÄšÂ»Ã¢xKÃ«HÃ¨Ã¾Ã¶Â³Ã¡]ÃŽÄ–Â´'i/Å=Ä†Ã›Ä4Ä€Ã²Ã–Ã‚Ä©Ã®Ã½Ã«ÃˆÃŸtÃ“ gÃ¤fÃ“Ä“Ä‚ÂºÃ©sÂ»Â¶ÃŽOÄDchÄÂ¬ÃŒÃ2IOÂ¼Ã‘Ã–Ã£Ã…Ã®IÃ©Ä‚Ã¶Â¿oÃ²ÄªÄ¢ÃÃ¬Ã¶slÃ£Â¸Â¼Â¨Ã§ÄšÃ‚ÃÃ–BÃ•Ã‡fpÃ°Â¥Â¸rnÃÂ»Ä·ÄšÃŠÃ–ÃˆÄ K!dbÃ¥ÃƒsÃÂ»Ã—ÃƒÃ“Ã”Ã¨Ã‡NJÃœl;Ãª;;;;;;Y*WT[,Â±Ã²Ã·.ÃµÄªÄ•0Ä¯Ä¾VSZ+Â°Ã±Ã¸-Ã´Ä©Ä–/Ä®Ä¿Ä”1)XU\yÂ²Ã³Ã¾Ä‰Ã¶Ä­Å€Ä«Ä°Ä½ÄºR]zÂ¯Ã°Ã¹Ã®Ã»Ä¨Ä—Ä¦Ä·Ä¼Ä¹2Ä“{(}xÂ³Ã€Ã½ÄˆÃ¿ÄŠÅÄ¬Ä±Ä¶Ä»Ä´^QÂ®ÂµÂ¬Ã¯ÃºÃ­Ã¼Ä§Ä˜Ä¥Ä¸Ä³Ä’3'|w~Â¿Â´ÃÄ€Ä‡Ä¢Ä‹Ä²Ä‘ÄœÄµÄžP_Â¢Â­Â¶Â«Â¾Ã¡Ã¬Ä™Ä†Ä¡Ä¤ÄŸ4Äa&ivÂ¡tÃ£Ã‚ÄÃ Ä£ÄŒÄ›ÄÄÃšFO`Â£hÂ·ÂªÂ½Ã¢Ã«ÄšÄ…Ä Ã›ÄŽ5%bEjuÂ¤sÃ¤ÃƒÄ‚ÃŸÃ¨ÄÄ„Ã™ÃœDGNg oÂ¸Â©Â¼Ã§ÃªÄƒÃ˜Ã6Ã•M$cpk>Â¥rÃ¥Ã„ÃÃžÃ©Ã–Ã‘ÃˆHCJ!fqnÂ¹Â¨Â»Ã¦Ã—ÃÃ‰Ã”7#LAd=l?Â¦;ÃŽÃ…ÃŒ9Ã’Ã‡ÃŠBI"K@e<mÂºÂ§:ÃÃ†Ã‹8Ã“ç¿¯?Ã¶x&NÄ¸Ä¼
 
-
 MESSAGE TEXT 
 o perhaps, you've generated some fancy text, and you're content that you can now copy and paste your fancy text in the comments section of funny cat videos, but perhaps you're wondering how it's even possible to change the font of your text? Is it some sort of hack? Are you copying and pasting an actual font?
 
 Well, the answer is actually no - rather than generating fancy fonts, this converter creates fancy symbols. The explanation starts with unicode; an industry standard which creates the specification for thousands of different symbols and characters. All the characters that you see on your electronic devices, and printed in books, are likely specified by the unicode standard.
 
-
-
 Although we mentioned ASCII wide-char, the unicode were put in use here. You can run this on cryptool to see how it defies today's analysis of cryptogrphy.
-
+CONCLUSION:
+The solution is another potent and simple approach to presenting a quantum-immune cryptography. This simplifies the complexity to the understing the work of cryptography done with primitives of lattice basis.
+Check this out-->>
+https://youtu.be/sx0YBK4RYcw
 
