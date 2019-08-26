@@ -1,7 +1,6 @@
-# Backend-Master-LokdonSKI
-Secret key infrastructure
+# Backend-Master-LokdonSKI Secret key infrastructure
 
-***********************************************************************8!
+*******************************************************************************************************************************!
 *******************************************************************************************************************************!
 LokDon security project: Josiah Johnson Umezurike. This document is a brief of the 17+ years work. We are not mathematicians. We only want to solve the common problems of the computing world. We are aware of the havoc quantum computing will bring to the modern cryptography. Thus we have prepared ourselves a decade in advance. We have used AES to develope ECSMID a 2048-Bit AES-hybrid. This is a low cost high entropy End-point to end-point Cryptographic System for Mobile and IoT Devices.This system is a category of hard NP problems closely related to numbered faces of a lattice in grid basis.
 *******************************************************************************************************************************!  
