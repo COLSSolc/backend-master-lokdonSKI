@@ -54,7 +54,27 @@ Using a mapping scheme of ST to KT and multi-mode-wrapping to achieve the aforem
 ASSUMPTIONS:									     		
 1. Modern cryptography only recognizes 2S or 2 stable standard signal state. e.g 0/1  
 2. Post-quantum cryptography must recognize 4S or 4 stable standard signal state.e.g various atomic state or photon’ polarization.
-3. O(message.length) complexity                    
+3. O(message.length) complexity    
+
+Basic Analysis of QC
+We summed up axioms based on the current information and the implementation of modern day cryptography.
+
+Pre-quantum computing (Currently):
+
+Encryption (bits) |Size of Dword (bits) |Stable standard signal state (unitless)   |Block size (bytes) 
+
+256 	                       8	               2	                     32 Bytes	      	      AES
+
+2048	                       8	               2	                     256+ bytes	      	   ECSMID
+
+Post=quantum computing 
+
+Encryption (bits)  |Size of Dword (bits) |Stable standard signal state (unitless) |Block size (bytes) |QC resistance(bits)
+
+256 	                       8	               2	                     32 Bytes	       126 bits	      AES
+2048	                       8	               2	                     256+ bytes	      1048 bits	   ECSMID
+
+The solution is another potent and simple approach to presenting a quantum-immune or resistance cryptography. This simplifies the complexity to the understing the work of cryptography done with primitives of lattice basis.It is clear by now that quantum computing will be the death of AES and many other crypto systems. The nature of quaternary number manipulation makes this possible. Check this out-->>https://youtu.be/sx0YBK4RYcw
 										    
 *******************************************************************************************************************************
 CONCLUSION:
@@ -78,16 +98,5 @@ Well, the answer is actually no - rather than generating fancy fonts, this conve
 
 Although we mentioned ASCII wide-char, the unicode were put in use for java users. You can run this on cryptool to see how it defies today's analysis of cryptogrphy.
 
-CONCLUSION:
-Pre-quantum computing (Currently):
-Encryption (bits)  |Size of Dword (bits) |Stable standard signal state (unitless) |Block size (bytes) 	
-256 	                       8	               2	                     32 Bytes	      	      AES
-2048	                       8	               2	                     256+ bytes	      	   ECSMID
 
-Post=quantum computing 
-Encryption (bits)  |Size of Dword (bits) |Stable standard signal state (unitless) |Block size (bytes) |QC resistance(bits)	
-256 	                       8	               2	                     32 Bytes	       126 bits	      AES
-2048	                       8	               2	                     256+ bytes	      1048 bits	   ECSMID
-
-The solution is another potent and simple approach to presenting a quantum-immune or resistance cryptography. This simplifies the complexity to the understing the work of cryptography done with primitives of lattice basis.It is clear by now that quantum computing will be the death of AES and many other crypto systems. The nature of quaternary number manipulation makes this possible. Check this out-->>https://youtu.be/sx0YBK4RYcw
 
