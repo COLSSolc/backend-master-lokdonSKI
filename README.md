@@ -61,20 +61,19 @@ We summed up axioms based on the current information and the implementation of m
 
 Pre-quantum computing (Currently):
 
-Encryption (bits) |Size of Dword (bits) |Stable standard signal state (unitless)   |Block size (bytes) 
+Encryption (bits) |Size of Dword (bits) |Stable standard signal state (unitless)|Block size (bytes) 
+256---------------------------8-----------------------2----------------------------32 Bytes-----------256 bits	 AES
 
-256 	                       8	               2	                     32 Bytes	      	      AES
+2048--------------------------8-----------------------2----------------------------256+ bytes---------2048 bits ECSMID
 
-2048	                       8	               2	                     256+ bytes	      	   ECSMID
-
-Post=quantum computing 
+Post-Quantum Computing 
 
 Encryption (bits)  |Size of Dword (bits) |Stable standard signal state (unitless) |Block size (bytes) |QC resistance(bits)
+256----------------------------8-----------------------4----------------------------32 Bytes-----------128 bits	 AES
 
-256 	                       8	               2	                     32 Bytes	       126 bits	      AES
-2048	                       8	               2	                     256+ bytes	      1048 bits	   ECSMID
+2048---------------------------8-----------------------4----------------------------256+ bytes---------1048+ bits ECSMID
 
-The solution is another potent and simple approach to presenting a quantum-immune or resistance cryptography. This simplifies the complexity to the understing the work of cryptography done with primitives of lattice basis.It is clear by now that quantum computing will be the death of AES and many other crypto systems. The nature of quaternary number manipulation makes this possible. Check this out-->>https://youtu.be/sx0YBK4RYcw
+The solution is a potent and simple approach to presenting a quantum-immune or resistance cryptography. This simplifies the complexity to the understing the work of cryptography done with primitives of lattice basis.It is clear by now that quantum computing will be the death of AES and many other crypto systems. The nature of quaternary number manipulation makes this possible. Check this out-->>https://youtu.be/sx0YBK4RYcw
 										    
 *******************************************************************************************************************************
 CONCLUSION:
