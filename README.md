@@ -5,6 +5,26 @@
 LokDon security project: Josiah Johnson Umezurike and Ravi Prakash. This document is a brief description of the 20+ years work. We are not mathematicians. We only want to solve the common problems of the computing world. We are aware of the havoc quantum computing will bring to the modern cryptography. Thus we have prepared ourselves a decade in advance. We have used AES to develope ECSMID a 2048-Bit AES-hybrid. This is a low cost high entropy End-point to end-point Cryptographic System for Mobile and IoT Devices.This system is a category of hard NP problems closely related to numbered faces of a lattice in grid basis.
 *******************************************************************************************************************************!  
 *******************************************************************************************************************************!
+Problem the Frailty of PKI:
+There are numerous talks about PKI. Ponemon, Gartner, IBM and many other reliable and prolific sources had mentioneed their worries about the future of PKI as we know it. We know it as a dominant part of the mechanism securing the internet transactions of today. The banks, health, retail, government and everyone uses it. It secures and makes private each communication whenever you access any secure website. It is speculated that since PKI is based on mathematics (N = p * q ), Phi(N) = (p-1)*(q-1) where (e, N) is the public keys and (d, N) is the private key. There is a condition e { integer; 1<e<phi(N); & co-primes (sharing no factors) with N & phi(N)}. Choose d such that, { e*d mod phi(N) = 1}:
+
+Encrypted data ( c) = msg^e mod N
+
+Decrypted data = c^d mod N
+
+The Fear:
+If anyone can obtain the factors of the lager number N then any message will be decrypted. Quantum computing has the potentials to crack these numbers in a short period of time known as polynomial time. In that case the RSA math will no longer be a hard problem of a non-deterministic polynomial (NP). 
+
+Our solution to this problems:
+
+We believe that any mathematical problem is there to be solved. This means that our crown jewel cannot depend on any mathematical function based on fermat's theorm to be safe guarded eternally. Quantume computing will wreak havoc on modern day cryptography whenever it finally gets into the hands of consumers. The idea one must have will be to find a solution, not to  wait for a solution to present itself. To solve this problem we are using 3D shapes and their properties: Especially the face of a cuboid in infinite space. The properties like face, edges and vertices come in handy. You can get a flux from this properties as result of vectors which form the basis just like you see in lattice basis. To put all these in codes the idea of a matrix formation, transposition transformation and substition serves us well. The face of lattice will have points or vectors. Same goes to a matrix. Therefore, Flux = double intgral F*n dS where n=1. This means that any face in a shape will have a regular arrangement of point in euclidean space (lattice). In this sense following elements of Galois' field; a matrix can hold lattice in that sense, it is a lattice too. It will have points upon which forces can interact with it. 
+
+We thought of n = infinity for the Galois field equation which was based on Euclidean space. Imagine that, as opposed to the present day symmetrical scopes. In cryptography this means that those points can represent encryption and decryption components of data by satisfying gf(p^n) where n=00. The flux analogy herein depends on the surface area or orientation of the shape and forces (analysist) on them. The changing flux will be likened to the changing entropy at every turn of the algorithm (operation) which actually is the product of the lattice vectors. TO make a long story short we created a system of quantum immunity or resistance for the computing world. We have been able to put together an algorithm that combines symmetric and assymetric cryptography standing strong enough to resist attacks from quantum computing.- Secret key infrastructure (SKI). It recognize and appies a) public key encryption - 2048 bits AES-hybrid are encrypted
+       b) key encapsulation - positions of key sets are encrypted with msg
+       c) digital signature - attributes are formed and stored as encrypts
+       
+The minimum modes for any encryption done is ususally 3 or m3. However you can encryption form m1 to m nth
+
 Package demonstration contents>>                                                                                            \___
                                                                            
 1. KnightSolver.cpp (This solves the open knights tour with numbers >> KT)
@@ -73,13 +93,8 @@ Encryption (bits)  |Size of Dword (bits) |Stable standard signal state (unitless
 
 2048---------------------------8-----------------------4----------------------------256+ bytes---------1048+ bits ECSMID
 
-The solution is a potent and simple approach to presenting a quantum-immune or resistance cryptography. This simplifies the complexity to the understing the work of cryptography done with primitives of lattice basis.It is clear by now that quantum computing will be the death of AES and many other crypto systems. The nature of quaternary number manipulation makes this possible. Check this out-->>https://youtu.be/sx0YBK4RYcw
+The table is a potent and simple approach to presenting a quantum-immune or resistance cryptography. This simplifies the complexity to the understing the work of cryptography done with primitives of lattice basis.It is clear by now that quantum computing will be the death of AES and many other crypto systems. The nature of quaternary number manipulation makes this possible. Check this out-->>https://youtu.be/sx0YBK4RYcw
 										    
-*******************************************************************************************************************************
-CONCLUSION:
-It is true that one might not draw a conclusion based on the information provided. Mathematical functions alone can no longer lead the cryptography in the age of quantum computing. We believe this method is fast backward compatible on hardware/software, transparent, visible and open to changes by permission. We have built several applications with this to note the interesting flow of this security architecture. Many other implementations of this skeleton abound. Let us know what you think and what you will do with this
-
-*******************************************************************************************************************************
 
 Sample 
 #1 CIPHERTEXT of ECSMID: 
@@ -97,5 +112,15 @@ Well, the answer is actually no - rather than generating fancy fonts, this conve
 
 Although we mentioned ASCII wide-char, the unicode were put in use for java users. You can run this on cryptool to see how it defies today's analysis of cryptogrphy.
 
+*******************************************************************************************************************************
+CONCLUSION:
+It is true that one might not draw a conclusion based on the information provided. Mathematical functions alone can no longer lead the cryptography in the age of quantum computing. We believe this method is fast backward compatible on hardware/software, transparent, visible and open to changes by permission. We have built several applications with this to note the interesting flow of this security architecture. Many other implementations of this skeleton abound. Let us know what you think and what you will do with this
+
+*******************************************************************************************************************************
+
+
+REFERENCES
+
+https://sites.math.washington.edu/~morrow/336_12/papers/juan.pdf
 
 
