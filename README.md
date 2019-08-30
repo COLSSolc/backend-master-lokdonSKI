@@ -23,7 +23,7 @@ We thought of n = infinity for the Galois field equation which was based on Eucl
        b) key encapsulation - positions of key sets are encrypted with msg
        c) digital signature - attributes are formed and stored as encrypts
        
-The minimum modes for any encryption done is ususally 3 or m3. However you can encryption form m1 to m nth
+The minimum modes for any encryption done is ususally 3 or m3. However you can encrypt from m1 to m nth
 
 Package demonstration contents>>                                                                                            \___
                                                                            
