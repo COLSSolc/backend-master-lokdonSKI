@@ -1,4 +1,4 @@
-# Backend-Master-LokdonSKI for Quantum Immune [Secret key infrastructure]
+# Backend-Master-LokdonSKI for Quantum Resistant [Secret key infrastructure]
 
 *******************************************************************************************************************************!
 *******************************************************************************************************************************!
