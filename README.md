@@ -84,7 +84,7 @@ We summed up axioms based on the current information and the implementation of m
 
 Pre-quantum computing (Currently):
 
-Encryption (bits) |Size of Dword (bits) |Stable standard signal state (unitless)|Block size (bytes)|State of the Art
+Encryption (bits) |Size of Dword (bits) |Stable standard signal state (unitless) |Block size (bytes)|State of the Art
 256---------------------------8-----------------------2----------------------------32 Bytes-----------256 bits AES
 
 2048--------------------------8-----------------------2----------------------------256+ bytes---------2048 bits ECSMID
