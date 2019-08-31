@@ -29,7 +29,7 @@ However, we have been able to put together an algorithm that combines symmetric 
  c) digital signature - attributes are formed and stored as encrypts
        
 The minimum modes for any encryption done is usually 3 or m3 for this system. However, you can encrypt anything (a message etc) from M1 to Mnth . This could be applied in telecommunications, aeronautics, litography, medicine and health, reatil, finance and education.
-C++ Package demonstration contents>>                                                                                         \___                                                                          
+C++ Package demonstration contents>>  \___  \___   \___ \___ \___  \___  \___  \___ \___ \___ \___  \___ \___  \___ \___  \___                                                                                                                                                      
 1. KnightSolver.cpp (This solves the open knights tour with numbers >> KT)
 2. st.cpp (This is the unicode component order of written or spoken words >> ST)
 <<96 chars for Latin-1 Supplement                                   
