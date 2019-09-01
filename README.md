@@ -10,7 +10,7 @@ There are numerous talks about PKI. Ponemon institute, Gartner, IBM and many oth
 
 Encrypted data ( c) = msg^e mod N
 
-Decrypted data = c^d mod N
+Decrypted data  (msg) = c^d mod N
 
 AES will suffer a similarly if not the same faith. The future of quantum computer will certainly vilify it. We don't really have to wait into the future anyway. People are already saving petabytes of data in cloud. These will be disclosed as soon as quantum computer becomes available. 
 
@@ -65,7 +65,7 @@ NEW APPROACH or AXIOMS:
 
 3. Knight's tour of any size could be solved in non-polynomial time; deterministic reduction. The bigger the scope the more time it will take to solve. Balancing symmetric stream of block (key) size, encryption time and implementation could yield the cryptography of the future.
 
-4. Similarly, AES exhibits the characteristics observed by the movement of the values held in the indices of GF of scope 16 * 16 matrix. Each knight' tour opens at 0 position by tracing a clean sweep the elements of the matrix and closes at another position 255. Therefore, the new approach reflects:
+4. Similarly, AES exhibits the characteristics observed by the movement of the values held in the indices of GF of scope 16 * 16 matrix or lattice basis. Each knight' tour opens at 0 position by tracing a clean sweep the elements of the matrix and closes at another position 255. Therefore, the new approach reflects:
 a. Sub bytes
 b. Addroundkeys
 c. shiftrow
@@ -74,7 +74,9 @@ Using a mapping scheme of ST to KT and multi-mode-wrapping to achieve the afore 
 									   	     
 5. Cipher keys (P) are no longer saved as they are generated from any position on the matrix (lattice face) upon request by NP. Each position has a different set of numbers to be generated. 5 sets of (680 long digits) from 5 different positions are chosen from the matrix of 16*16 (256 bytes or 2048 bits). Attributes are chosen prior to be arranged into n=5 different modes of encrypt for each attribute or payload fed into mode one all the way to mode five (m1-m5).							     
 										     
-5. The keys always change for any single message because the position on the lattice face changes as you can get started from any indexed point or vector. The origin 0 to any other part produces a different entropy flux. While the order of the positions are regular(deterministic) they generate chaotic set of numbers. This generates a new set of 680digit long numbers. This knowledge reveals the changing nature of the message' ciphertext as well. When similar contents are encrypted the ciphertext are usually different. Thus, hashing could only be needed for CRC or message integrity check.  P!= NP || P not a subset NP.                                               
+6. The keys always change for any single message because the position on the lattice face changes as you can get started from any indexed point or vector. The origin 0 to any other part produces a different entropy flux. While the order of the positions are regular(deterministic) they generate chaotic set of numbers. This generates a new set of 680digit long numbers. This knowledge reveals the changing nature of the message' ciphertext as well. When similar contents are encrypted the ciphertext are usually different. Thus, hashing could only be needed for CRC or message integrity check.  P!= NP || P not a subset NP. 
+
+7. The output or ciphertext from the message input in M1 is used as input in M2. The ciphertext from mode two is used as the input in mode three M3. The ciphertect from mode three is used as input for mode four M4. The ciphertext from mode four is used as input for mode five M5. This is Homomorphic encryption mechanism. The homomorphin encryption (HE) nature makes it possible the flexibility of the algorithm to use ( M1-M5) as public key encyrption.
 
 ASSUMPTIONS:									     		
 1. Modern cryptography only recognizes 2S or 2 stable standard signal state. e.g 0/1  
