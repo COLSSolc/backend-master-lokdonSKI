@@ -125,5 +125,6 @@ It is true that one might not draw a conclusion based on the information provide
 
 *******************************************************************************************************************************
 REFERENCES
-https://sites.math.washington.edu/~morrow/336_12/papers/juan.pdf
-https://math.oregonstate.edu/home/programs/undergrad/CalculusQuestStudyGuides/vcalc/flux/flux.html
+[1] https://www.cs.umd.edu/~huqi/MasterThesisR.pdf
+[2] https://sites.math.washington.edu/~morrow/336_12/papers/juan.pdf
+[3] https://math.oregonstate.edu/home/programs/undergrad/CalculusQuestStudyGuides/vcalc/flux/flux.html
