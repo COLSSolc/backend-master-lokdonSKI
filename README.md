@@ -125,6 +125,11 @@ It is true that one might not draw a conclusion based on the information provide
 
 *******************************************************************************************************************************
 REFERENCES
+
 [1] https://www.cs.umd.edu/~huqi/MasterThesisR.pdf
+
 [2] https://sites.math.washington.edu/~morrow/336_12/papers/juan.pdf
+
 [3] https://math.oregonstate.edu/home/programs/undergrad/CalculusQuestStudyGuides/vcalc/flux/flux.html
+
+[4] https://blog.trailofbits.com/2018/10/22/a-guide-to-post-quantum-cryptography/
