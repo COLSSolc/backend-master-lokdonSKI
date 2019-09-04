@@ -1,4 +1,4 @@
-# Backend-Master-LokdonSKI for Quantum Resistant [Secret key infrastructure]
+# Lokdon Secret Key Infrastructure (SKI) for Quantum Resistant Computing
 
 *******************************************************************************************************************************!
 *******************************************************************************************************************************!
