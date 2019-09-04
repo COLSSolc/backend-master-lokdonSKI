@@ -41,6 +41,10 @@ However, we have been able to put together an algorithm that combines symmetric 
  b) key encapsulation - positions of key sets are encrypted with msg and separated
  
  c) digital signature - attributes are formed and stored as encrypts (HE properties are used)
+ 
+ d) Hashes are not used in the classical sense for authentication: They only suffice for initial plain text integrity (digest) check
+ 
+ e) CRC or checksum is not pushed here because of HE: If the hashes matches, original plaintext is the same as the current one.
       
 The minimum modes for any encryption done is usually 3 or m3 for this system. However, you can encrypt anything (a message etc) from M1 to Mnth. This could be applied in telecommunications, aeronautics, litography, medicine and health, reatil, finance and education.
 
