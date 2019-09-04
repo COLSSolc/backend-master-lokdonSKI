@@ -15,6 +15,11 @@ Encrypted data ( c) = msg^e mod N
 
 Decrypted data  (msg) = c^d mod N
 
+AES will suffer a similarly if not the same fate as RSA. The future of quantum computer will certainly vilify it. We don't really have to wait into the future anyway. People are already saving petabytes of data in cloud. These will be disclosed as soon as quantum computer becomes available. 
+
+The Fear:
+If anyone can obtain the factors of the lager number N with d (public key) any message will be decrypted. You should also note that Quantum computing has the potentials to solve the math and/or crack these numbers in a short period of time. This is usually known as polynomial time. In that case the RSA math will no longer be a hard problem of a non-deterministic polynomial (NP). 
+
 Symmetric:
 
 Let Ct = cipher template length; where the length is the same as the keys used to perform wholistic encryption of the message. The message is added to extended key K of period D which could be an 64 bits passphrase. Note that a modulo arithemetic is used herein.
@@ -22,26 +27,6 @@ Let Ct = cipher template length; where the length is the same as the keys used t
 Encrypted data (c) = (msg, D): (msg or D) mod Ct
 
 Decrypted data (msg) = (c, D): (c xor D) mod Ct
-
-# Full M5 mechanism
-This method could operate on the password and volumetric data as well. You can also use the message C in place of the password.
-
-## Password + silent password = CT1  M1 encrypt --- [ciphertext1]^[P spktn][P ktn]                  M1
-
-CT1 + silent password = CT2  M2 encrypt --- [ciphertext2]^[P spktn][P ktn ]                      M2
-
-CT2 + silent password = CT3  M3 encrypt --- [ciphertext3]^[P spktn][P ktn ]                      M3
-
-CT3 + silent password = CT4  M4 encrypt --- [ciphertext4]^[P spktn][P ktn ]                      M4
-
-## CT4 + silent password = CT5  M5 encrypt --- [ciphertext5]^[P spktn][P ktn ]                      M5
-
-When an offset is added the length of the encyrypted message C. That no longer depicts the length of the key. Rather a periodic random key k is used to match the length of the message. This voids the condition voids a condition of the classical stream cipher requirements. Especially the one time pad scenario.
-
-AES will suffer a similarly if not the same fate as RSA. The future of quantum computer will certainly vilify it. We don't really have to wait into the future anyway. People are already saving petabytes of data in cloud. These will be disclosed as soon as quantum computer becomes available. 
-
-The Fear:
-If anyone can obtain the factors of the lager number N with d (public key) any message will be decrypted. You should also note that Quantum computing has the potentials to solve the math and/or crack these numbers in a short period of time. This is usually known as polynomial time. In that case the RSA math will no longer be a hard problem of a non-deterministic polynomial (NP). 
 
 Our solution to the problems:
 
@@ -57,7 +42,41 @@ However, we have been able to put together an algorithm that combines symmetric 
  
  c) digital signature - attributes are formed and stored as encrypts (HE properties are used)
       
-The minimum modes for any encryption done is usually 3 or m3 for this system. However, you can encrypt anything (a message etc) from M1 to Mnth . This could be applied in telecommunications, aeronautics, litography, medicine and health, reatil, finance and education.
+The minimum modes for any encryption done is usually 3 or m3 for this system. However, you can encrypt anything (a message etc) from M1 to Mnth. This could be applied in telecommunications, aeronautics, litography, medicine and health, reatil, finance and education.
+
+# Full M5 mechanism
+This method could operate on the password and volumetric data as well. You can also use the message C in place of the password.
+
+ Password + silent password = CT1 --> M1 encrypt --- [ciphertext1]^[P spktn][P ktn]                  M1
+
+CT1 + silent password = CT2 --> M2 encrypt --- [ciphertext2]^[P spktn][P ktn ]                      M2
+
+CT2 + silent password = CT3 --> M3 encrypt --- [ciphertext3]^[P spktn][P ktn ]                      M3
+
+CT3 + silent password = CT4 --> M4 encrypt --- [ciphertext4]^[P spktn][P ktn ]                      M4
+
+ CT4 + silent password = CT5 --> M5 encrypt --- [ciphertext5]^[P spktn][P ktn ]                      M5
+
+When an offset is added the length of the encyrypted message C. That no longer depicts the length of the key. Rather a periodic random key k is used to match the length of the message. This voids the condition voids a condition of the classical stream cipher requirements. Especially the one time pad scenario.
+
+Data + mpin encrypt = CT1 --> M1 encrypt -->[ciphertext1]^[mpinm3 encrypt]^[Pktn]^[P mpinktn] -- > M1
+M1 + mpin encrypt = CT2 --> M2 encrypt -->[ciphertext2]^[mpinm2 encrypt]^[Pktn]^[P mpinktn] -- > M2
+M2 + mpin encrypt = CT3 --> M3 encrypt -->[ciphertext3]^[mpinm2 encrypt]^[Pktn=3]^[P mpinktn=3] -- > M3
+M3 + mpin encrypt = CT4 --> M4 encrypt -->[ciphertext4]^[mpinm2 encrypt]^[Pktn]^[P mpinktn] -- > M4
+M4 + mpin encrypt = CT5 --> M5 encrypt -->[ciphertext5]^[mpinm2 encrypt]^[Pktn]^[P mpinktn] -- > M5
+
+Following the above process, the mpin encrypt is shown is that of the recipients if one is sending a message requiring ZKP. For example, M3 mpin of position (P mpinktn=3) is tripped and sent with the message:
+
+Data + mpin encrypt = CT5 --> M5 encrypt -->[ciphertext1]^[mpinm3 encrypt]^[Pktn]^[P mpinktn] -- > M5
+
+Note the removal of M3mpin key positions.
+Data + mpin encrypt = CT5 --> M5 encrypt -->[ciphertext1]^[mpinm3 encrypt]^[Pktn] -- > M5
+On your device you have mpinm2 encrypt:
+[mpinm2 encrypt]^[P mpinktn=2]
+Note the replacement of the unstripped m2mpin with m3mpin keys’ position
+[mpinm2 encrypt]^[P mpinktn=3]
+
+This way the attacker may never be able to go back to M1 if at all they gain access to the network. M3mpin could be used as a digital signature of each user in the network. 
 
 C++ Package demonstration contents>>  \___  \___   \___ \___ \___  \___  \___  \___ \___ \___ \___  \___ \___  \___ \___  \___                                                                                                                                                      
 1. KnightSolver.cpp (This solves the open knights tour with numbers >> KT)
@@ -174,3 +193,5 @@ It is true that one might not draw a conclusion based on the information provide
 [3] https://math.oregonstate.edu/home/programs/undergrad/CalculusQuestStudyGuides/vcalc/flux/flux.html
 
 [4] https://blog.trailofbits.com/2018/10/22/a-guide-to-post-quantum-cryptography/
+
+[5] Niklas Johansson et al. Quantum Simulation Logic, Oracles, and the Quantum Advantage, Entropy (2019). DOI: 10.3390/e21080800
