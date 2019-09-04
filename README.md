@@ -8,11 +8,20 @@ LokDon security project: Josiah Johnson Umezurike and Ravi Prakash. This documen
 Problem the Frailty of PKI and AES:
 There are numerous talks about PKI. Ponemon institute, Gartner, IBM and many other reliable and prolific sources had mentioned their worries about the future of PKI as we know it. More so, PKI and AES are the dominant part of the mechanism securing the internet transactions of today. The banks, health, retail, government and all entities uses these two technology. They are supposed to secure and make private each communication whenever you access any secure website. It is speculated that since PKI is based on mathematics (N = p * q ), Phi(N) = (p-1)*(q-1) where (e, N) is the public keys and (d, N) is the private key. There is a condition e { integer; 1<e<phi(N); & co-primes (sharing no factors) with N & phi(N)}. Choose d such that, { e*d mod phi(N) = 1}:
 
+Asymmetric:
+
 Encrypted data ( c) = msg^e mod N
 
 Decrypted data  (msg) = c^d mod N
 
-AES will suffer a similarly if not the same fate. The future of quantum computer will certainly vilify it. We don't really have to wait into the future anyway. People are already saving petabytes of data in cloud. These will be disclosed as soon as quantum computer becomes available. 
+Symmetric:
+Let Ct = cipher template length; message is added to key D of period k which could be an 8 bits passphrase.
+Encrypted data (c) = (msg, D): (msg or D) mod Ct
+Decrypted data (msg) = (c, D): (c xor D) mod Ct
+
+When an offset is added the length of the encyrypted message C. That no longer depicts the length of the key. Rather a periodic random key k is used to match the length of the message. This voids the condition voids a condition of the classical stream cipher requirements. Especially the one time pad scenario.
+
+AES will suffer a similarly if not the same fate as RSA. The future of quantum computer will certainly vilify it. We don't really have to wait into the future anyway. People are already saving petabytes of data in cloud. These will be disclosed as soon as quantum computer becomes available. 
 
 The Fear:
 If anyone can obtain the factors of the lager number N with d (public key) any message will be decrypted. You should also note that Quantum computing has the potentials to solve the math and/or crack these numbers in a short period of time. This is usually known as polynomial time. In that case the RSA math will no longer be a hard problem of a non-deterministic polynomial (NP). 
@@ -61,9 +70,9 @@ NEW APPROACH or AXIOMS:
 
 1. GF 2^p where p =< 8; -> GF 2^p, where p !<8 && p > 8 || 00 (or goes to infinity).
 
-2. Non-Deterministic Polynomial problems (hard problems) are reconsidered for 16 * 16 matrix e.g We embodied KT as a hard (NP-Complete) problem with no other complexity to derive ciphertext from cryptographic engine if not by O(m)in space-time. It is also noted that this very system originates lattice base cryptography.
+2. Non-Deterministic Polynomial problems (hard problems) are reconsidered for 16 * 16 matrix e.g We embodied KT as a hard (NP-Complete) problem with no other complexity to derive ciphertext from cryptographic engine; O(m) in complexity. It is also noted that this very system originates lattice base cryptography.
 
-3. Knight's tour of any size could be solved in non-polynomial time; deterministic reduction. The bigger the scope the more time it will take to solve. Balancing symmetric stream of block (key) size, encryption time and implementation could yield the cryptography of the future.
+3. Knight's tour of any size could be solved in non-polynomial time; deterministic reduction. The bigger the scope the more time it will take to solve. Balancing symmetric stream of block (key) size, encryption time and implementation could yield cryptography of the future.
 
 4. Similarly, AES exhibits the characteristics observed by the movement of the values held in the indices of GF of scope 16 * 16 matrix or lattice basis. Each knight' tour opens at 0 position by tracing a clean sweep the elements of the matrix and closes at another position 255. Therefore, the new approach reflects:
 a. Sub bytes
@@ -76,12 +85,13 @@ Using a mapping scheme of ST to KT and multi-mode-wrapping to achieve the afore 
 										     
 6. The keys always change for any single message because the position on the lattice face changes as you can get started from any indexed point or vector. The origin 0 to any other part produces a different entropy flux. While the order of the positions are regular(deterministic) they generate chaotic set of numbers. This generates a new set of 680digit long numbers. This knowledge reveals the changing nature of the message' ciphertext as well. When similar contents are encrypted the ciphertext are usually different. Thus, hashing could only be needed for CRC or message integrity check.  P!= NP || P not a subset NP. 
 
-7. The output or ciphertext from the message input in M1 is used as input in M2. The ciphertext from mode two is used as the input in mode three M3. The ciphertect from mode three is used as input for mode four M4. The ciphertext from mode four is used as input for mode five M5. This is Homomorphic encryption mechanism. The homomorphin encryption (HE) nature makes it possible the flexibility of the algorithm to use ( M1-M5) as public key encyrption.
+7. The output or ciphertext from the message input in M1 is used as input in M2. The ciphertext from mode two is used as the input in mode three M3. The ciphertect from mode three is used as input for mode four M4. The ciphertext from mode four is used as input for mode five M5. This is Homomorphic encryption mechanism. The homomorphic encryption (HE) properties makes possible the flexibility of the algorithm ( M1-M5) as public key encyrption. This encrypts from this wrapping technique could be used for ZKP.
 
 ASSUMPTIONS:									     		
 1. Modern cryptography only recognizes 2S or 2 stable standard signal state. e.g 0/1  
 2. Post-quantum cryptography must recognize 4S or 4 stable standard signal state e.g various atomic state or photon’ superposition.
-3. O(message.length) complexity    
+3. O(message.length) complexity  
+4. We assume an ideal environment without anomalies
 
 Basic Analysis of QC
 We summed up axioms based on the current information and the implementation of modern cryptography.
