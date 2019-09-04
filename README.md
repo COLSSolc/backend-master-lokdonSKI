@@ -17,10 +17,24 @@ Decrypted data  (msg) = c^d mod N
 
 Symmetric:
 
-Let Ct = cipher template length; message is added to key D of period k which could be an 8 bits passphrase.
+Let Ct = cipher template length; where the length is the same as the keys used to perform wholistic encryption of the message. The message is added to extended key K of period D which could be an 64 bits passphrase. Note that a modulo arithemetic is used herein.
+
 Encrypted data (c) = (msg, D): (msg or D) mod Ct
 
 Decrypted data (msg) = (c, D): (c xor D) mod Ct
+
+# Full M5 mechanism
+This method could operate on the password and volumetric data as well. You can also use the message C in place of the password.
+
+Password + silent password = CT1  M1 encrypt --- [ciphertext1]^[P spktn][P ktn]                  M1
+
+CT1 + silent password = CT2  M2 encrypt --- [ciphertext2]^[P spktn][P ktn ]                      M2
+
+CT2 + silent password = CT3  M3 encrypt --- [ciphertext3]^[P spktn][P ktn ]                      M3
+
+CT3 + silent password = CT4  M4 encrypt --- [ciphertext4]^[P spktn][P ktn ]                      M4
+
+CT4 + silent password = CT5  M5 encrypt --- [ciphertext5]^[P spktn][P ktn ]                      M5
 
 When an offset is added the length of the encyrypted message C. That no longer depicts the length of the key. Rather a periodic random key k is used to match the length of the message. This voids the condition voids a condition of the classical stream cipher requirements. Especially the one time pad scenario.
 
