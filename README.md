@@ -17,6 +17,7 @@ Decrypted data  (msg) = c^d mod N
 Symmetric:
 Let Ct = cipher template length; message is added to key D of period k which could be an 8 bits passphrase.
 Encrypted data (c) = (msg, D): (msg or D) mod Ct
+
 Decrypted data (msg) = (c, D): (c xor D) mod Ct
 
 When an offset is added the length of the encyrypted message C. That no longer depicts the length of the key. Rather a periodic random key k is used to match the length of the message. This voids the condition voids a condition of the classical stream cipher requirements. Especially the one time pad scenario.
