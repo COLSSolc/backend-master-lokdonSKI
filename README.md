@@ -3,8 +3,9 @@
 *******************************************************************************************************************************!
 *******************************************************************************************************************************!
 LokDon security project: Josiah Johnson Umezurike and Ravi Prakash. This document is a brief description of over 20 years research work. We are not mathematicians. We only want to solve the common problems of the computing world. We are aware of the havoc quantum computing will bring to the modern cryptography. Consequently, we have prepared ourselves a decade in advance. We have used AES to develop a 2048-Bit AES-hybrid. This is a low-cost high entropy; end-point to end-point cryptographic system for cloud, mobile and IoT devices (ECSMID). This system is a category of hard NP problems closely related to numbered faces of a lattice in grid basis. This crypto shows the properties of both symmetric, asymmetric cryptography or public key infrastructure.
-*******************************************************************************************************************************!  
-********************************************************************************************************************************!
+*******************************************************************************************************************************!
+*******************************************************************************************************************************!
+
 Problem the Frailty of PKI and AES:
 There are numerous talks about PKI. Ponemon institute, Gartner, IBM and many other reliable and prolific sources had mentioned their worries about the future of PKI as we know it. More so, PKI and AES are the dominant part of the mechanism securing the internet transactions of today. The banks, health, retail, government and all entities uses these two technology. They are supposed to secure and make private each communication whenever you access any secure website. It is speculated that since PKI is based on mathematics (N = p * q ), Phi(N) = (p-1)*(q-1) where (e, N) is the public keys and (d, N) is the private key. There is a condition e { integer; 1<e<phi(N); & co-primes (sharing no factors) with N & phi(N)}. Choose d such that, { e*d mod phi(N) = 1}:
 
