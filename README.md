@@ -15,6 +15,7 @@ Encrypted data ( c) = msg^e mod N
 Decrypted data  (msg) = c^d mod N
 
 Symmetric:
+
 Let Ct = cipher template length; message is added to key D of period k which could be an 8 bits passphrase.
 Encrypted data (c) = (msg, D): (msg or D) mod Ct
 
@@ -34,24 +35,37 @@ We believe that any mathematical problem is there to be solved. This means that 
 We thought of n = infinity for the Galois field equation which was based on Euclidean space. Imagine that, this is in opposition to present day symmetrical cryptographic limiting scopes. In cryptography this means that those points can represent encryption and decryption components of data by satisfying gf(p^n) where n=00 or infinity. The flux analogy herein depends on the surface area or orientation of the shape and forces (analysis) on them. The changing flux will be likened to the changing entropy at every turn of the algorithm (operation). The total flux is the product of the base, force and normal vectors. To make a long story short, we created a system of quantum immunity or resistance for the computation by replacing the vectors or points with characters of written words. We carefully chose certain Unicode characters. These formulates the state. Subsequent generation of numbers from these faces following position (Pn=0 - Pn=255) gives rise to other sets (680 digits long) which could be used as cipher templates. These points are numbers generated from the chaotic regularity found in faces of stars, flakes of snow and silicon shapes (of course in 3D). This system comes with a powerful wrapping mechanism. That’s what makes it possible to be used as an exchange channel like what we have in PKI public and private key. We are not going to discuss the full details in this paper at once.
 
 However, we have been able to put together an algorithm that combines symmetric and asymmetric cryptography, standing strong enough to resist attacks from quantum computing. -- Secret key infrastructure (SKI). It recognizes and applies:
- a) public key encryption - 2048 bits AES-hybrid are encrypted
- b) key encapsulation - positions of key sets are encrypted with msg
- c) digital signature - attributes are formed and stored as encrypts
-       
+
+ a) public key encryption - 2048 bits AES-hybrid is used for encryption in wraps or modes
+ 
+ b) key encapsulation - positions of key sets are encrypted with msg and separated
+ 
+ c) digital signature - attributes are formed and stored as encrypts (HE properties are used)
+      
 The minimum modes for any encryption done is usually 3 or m3 for this system. However, you can encrypt anything (a message etc) from M1 to Mnth . This could be applied in telecommunications, aeronautics, litography, medicine and health, reatil, finance and education.
+
 C++ Package demonstration contents>>  \___  \___   \___ \___ \___  \___  \___  \___ \___ \___ \___  \___ \___  \___ \___  \___                                                                                                                                                      
 1. KnightSolver.cpp (This solves the open knights tour with numbers >> KT)
 2. st.cpp (This is the unicode component order of written or spoken words >> ST)
-<<96 chars for Latin-1 Supplement                                   
+
+<<96 chars for Latin-1 Supplement   
+
 <<4 chars for ASCII punctuation and symbols
+
 <<26 chars for Lowercase Latin alphabet
+
 <<6 chars for ASCII punctuation and symbols
+
 <<26 chars for Uppercase Latin alphabet
+
 <<7 chars for ASCII punctuation and symbols
+
 <<10 chars for ASCII Digits
 
 <<16 chars for ASCII punctuation and symbols
+
 <<63 chars from Latin Extended A
+
 All are totaled at 256 bytes (2048 bits)
 
 3. revnum.cpp (Reverse the cipher template derived after mapping)
@@ -94,7 +108,8 @@ ASSUMPTIONS:
 3. O(message.length) complexity  
 4. We assume an ideal environment without anomalies
 
-Basic Analysis of QC
+***Basic Analysis of QC
+
 We summed up axioms based on the current information and the implementation of modern cryptography.
 
 Pre-quantum computing (Currently):
