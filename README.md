@@ -108,7 +108,7 @@ ASSUMPTIONS:
 3. O(message.length) complexity  
 4. We assume an ideal environment without anomalies
 
-***Basic Analysis of QC
+# ***Basic Analysis of QC
 
 We summed up axioms based on the current information and the implementation of modern cryptography.
 
@@ -146,11 +146,11 @@ Well, the answer is actually no - rather than generating fancy fonts, this conve
 Although we mentioned ASCII wide-char, the unicode were put in use for java users. You can run this on cryptool to see how it defies today's analysis of cryptogrphy.
 
 *******************************************************************************************************************************
-CONCLUSION:
+# CONCLUSION:
 It is true that one might not draw a conclusion based on the information provided. Mathematical functions alone can no longer lead the cryptography in the age of quantum computing. We believe this method is fast backward compatible on hardware/software, transparent, visible and open to changes by permission. We have built several applications with this to note the interesting flow of this security architecture. Many other implementations of this skeleton abound. Let us know what you think and what you will do with this as well as what you will like us to modify. 
 
 *******************************************************************************************************************************
-REFERENCES
+# REFERENCES
 
 [1] https://www.cs.umd.edu/~huqi/MasterThesisR.pdf
 
