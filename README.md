@@ -6,8 +6,8 @@ LokDon security project: Josiah Johnson Umezurike and Ravi Prakash. This documen
 *******************************************************************************************************************************!
 *******************************************************************************************************************************!
 
-Problem the Frailty of PKI and AES:
-There are numerous talks about PKI. Ponemon institute, Gartner, IBM and many other reliable and prolific sources had mentioned their worries about the future of PKI as we know it. More so, PKI and AES are the dominant part of the mechanism securing the internet transactions of today. The banks, health, retail, government and all entities uses these two technology. They are supposed to secure and make private each communication whenever you access any secure website. It is speculated that since PKI is based on mathematics (N = p * q ), Phi(N) = (p-1)*(q-1) where (e, N) is the public keys and (d, N) is the private key. There is a condition e { integer; 1<e<phi(N); & co-primes (sharing no factors) with N & phi(N)}. Choose d such that, { e*d mod phi(N) = 1}:
+# Problem 
+The Frailty of PKI and AES: There are numerous talks about PKI. Ponemon institute, Gartner, IBM and many other reliable and prolific sources had mentioned their worries about the future of PKI as we know it. More so, PKI and AES are the dominant part of the mechanism securing the internet transactions of today. The banks, health, retail, government and all entities use these two technology. They are supposed to secure and make private each communication whenever you access any secure website. It is speculated that since PKI is based on mathematics (N = p * q ), Phi(N) = (p-1)*(q-1) where (e, N) is the public keys and (d, N) is the private key. There is a condition e { integer; 1<e<phi(N); & co-primes (sharing no factors) with N & phi(N)}. Choose d such that, { e*d mod phi(N) = 1}:
 
 Asymmetric:
 
@@ -22,13 +22,19 @@ If anyone can obtain the factors of the lager number N with d (public key) any m
 
 Symmetric:
 
-Let Ct = cipher template length; where the length is the same as the keys used to perform wholistic encryption of the message. The message is added to extended key K of period D which could be an 64 bits passphrase. Note that a modulo arithemetic is used herein.
+Let Ct = cipher template length; where the length is the same as the keys used to perform wholistic encryption of the message. The message is added to extended key K of period D which could be an 64 bits passphrase. Note that a modulo arithemetic is used herein. Some find it convenient to use seeds in phone numbers (10-15 digit numbers arranged in a particular order) or pick vector on the matrix which in turn generates 680 digit numbers from each position.  
 
 Encrypted data (c) = (msg, D): (msg or D) mod Ct
 
 Decrypted data (msg) = (c, D): (c xor D) mod Ct
 
-Our solution to the problems:
+Lets look at it this way: There are many orderly ways to pick out 2 distinct numbers from this arrangement of 10 digits--> 788 890 6754
+Let n = 10 and k =2
+nPk =  10!/8! = 90
+
+Each 2 distinct numbers (seed) found on the matrix will further generate another 680 digit long numbers. The 680 digit long numbers are now used the the encryption keys. Normally 5 sets are needed at least. We will discuss this further in the paper.
+
+Solution to the problems:
 
 We believe that any mathematical problem is there to be solved. This means that our crown jewel cannot depend on any mathematical function based on Fermat's theorem to be safe guarded eternally. Quantum computing will wreak havoc on modern day cryptography whenever it finally gets into the hands of consumers. The idea one must have will be to find a solution, not to wait for a solution to present itself. To solve this problem, we used 3D shapes and their properties: Especially the face of a cuboid in Galois field. The properties like face, edges and vertices come in handy in assumes infinite space. You can get a flux from these properties as a result of vectors which forms regular point in Euclidean to enhance orientation just like you see in lattice basis. To put all these terms programmatically (codes) the idea of a matrix formation, transposition, transformation and substitution serves us well. The face of lattice will have points or vectors. Same goes to a matrix. Therefore, Flux = double integral F*n dS where n=1. This means that any normal face in a shape will have a regular arrangement of point in Euclidean space (lattice). In this sense, following the elements of Galois' field; a matrix can hold a lattice: It is a lattice too. It will have points upon which forces can interact with it. 
 
