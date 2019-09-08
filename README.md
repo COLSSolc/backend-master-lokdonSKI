@@ -57,7 +57,7 @@ The minimum modes for any encryption done is usually 3 or m3 for this system. Ho
 # Full M5 mechanism
 This method could operate on the password and volumetric data as well. You can also use the message C in place of the password.
 
- Password + silent password = CT1 --> M1 encrypt --- [ciphertext1]^[P spktn][P ktn]                  M1
+Password + silent password = CT1 --> M1 encrypt --- [ciphertext1]^[P spktn][P ktn]                  M1
 
 CT1 + silent password = CT2 --> M2 encrypt --- [ciphertext2]^[P spktn][P ktn ]                      M2
 
@@ -65,7 +65,7 @@ CT2 + silent password = CT3 --> M3 encrypt --- [ciphertext3]^[P spktn][P ktn ]  
 
 CT3 + silent password = CT4 --> M4 encrypt --- [ciphertext4]^[P spktn][P ktn ]                      M4
 
- CT4 + silent password = CT5 --> M5 encrypt --- [ciphertext5]^[P spktn][P ktn ]                      M5
+CT4 + silent password = CT5 --> M5 encrypt --- [ciphertext5]^[P spktn][P ktn ]                      M5
 
 When an offset is added the length of the encyrypted message C. That no longer depicts the length of the key. Rather a periodic random key k is used to match the length of the message. This voids the condition voids a condition of the classical stream cipher requirements. Especially the one time pad scenario.
 
@@ -85,6 +85,7 @@ Data + mpin encrypt = CT5 --> M5 encrypt -->[ciphertext1]^[mpinm3 encrypt]^[Pktn
 
 Note the removal of M3mpin key positions.
 Data + mpin encrypt = CT5 --> M5 encrypt -->[ciphertext1]^[mpinm3 encrypt]^[Pktn] -- > M5
+
 On your device you have mpinm2 encrypt:
 [mpinm2 encrypt]^[P mpinktn=2]
 Note the replacement of the unstripped m2mpin with m3mpin keys’ position
