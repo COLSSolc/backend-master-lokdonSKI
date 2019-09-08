@@ -70,9 +70,13 @@ CT3 + silent password = CT4 --> M4 encrypt --- [ciphertext4]^[P spktn][P ktn ]  
 When an offset is added the length of the encyrypted message C. That no longer depicts the length of the key. Rather a periodic random key k is used to match the length of the message. This voids the condition voids a condition of the classical stream cipher requirements. Especially the one time pad scenario.
 
 Data + mpin encrypt = CT1 --> M1 encrypt -->[ciphertext1]^[mpinm3 encrypt]^[Pktn]^[P mpinktn] -- > M1
+
 M1 + mpin encrypt = CT2 --> M2 encrypt -->[ciphertext2]^[mpinm2 encrypt]^[Pktn]^[P mpinktn] -- > M2
+
 M2 + mpin encrypt = CT3 --> M3 encrypt -->[ciphertext3]^[mpinm2 encrypt]^[Pktn=3]^[P mpinktn=3] -- > M3
+
 M3 + mpin encrypt = CT4 --> M4 encrypt -->[ciphertext4]^[mpinm2 encrypt]^[Pktn]^[P mpinktn] -- > M4
+
 M4 + mpin encrypt = CT5 --> M5 encrypt -->[ciphertext5]^[mpinm2 encrypt]^[Pktn]^[P mpinktn] -- > M5
 
 Following the above process, the mpin encrypt is shown is that of the recipients if one is sending a message requiring ZKP. For example, M3 mpin of position (P mpinktn=3) is tripped and sent with the message:
