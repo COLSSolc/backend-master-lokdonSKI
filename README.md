@@ -125,7 +125,8 @@ All are totaled at 256 bytes (2048 bits)
 
 6. main.cpp (this takes care of the implementation we desire)                      
 
-OBJECTIVE:
+# OBJECTIVE:
+
 To show that there is a cryptographic approach that fits into the ideal
 quantum cryptography. Lattice basis is just an image of what is already there. A low cost, pervasive and high entropy that increases AES capacity to roughly 10 times. Thereby, mitigates the effects of 
 post-quantum breaches.
