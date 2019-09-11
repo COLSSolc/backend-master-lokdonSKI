@@ -5,6 +5,10 @@
 LokDon security project: Josiah Johnson Umezurike. This document is a brief description of over 20 years research work. We are not mathematicians. We only want to solve the common problems of the computing world. We are aware of the havoc quantum computing will bring to the modern cryptography. Consequently, we have prepared ourselves a decade in advance. We have used AES to develop a 2048-Bit AES-hybrid. This is a low-cost high entropy; end-point to end-point cryptographic system for cloud, mobile and IoT devices (ECSMID). The reference specification is a category of hard NP problems closely related to numbered faces of a lattice basis or matrix . This cryptography shows the properties of both symmetric, asymmetric cryptography or public key infrastructure (PKE, KEM and DS).
 *******************************************************************************************************************************!
 *******************************************************************************************************************************!
+# OBJECTIVE:
+To show that there is a cryptographic approach that fits into the ideal sets of algorithms known to be resistant to
+quantum computing. Lattice basis is just an image of what is already there. A low cost, pervasive and high entropy which hybridizes and increases AES capacity to roughly 10 times. Thereby, mitigates the effects of 
+post-quantum breaches.
 
 # An Overview of current cyrptopgrapy:
 The Frailty of PKI and AES: There are numerous talks about PKI. Ponemon institute, Gartner, IBM and many other reliable and prolific sources had mentioned their worries about the future of PKI as we know it. More so, PKI and AES are the dominant part of the mechanism securing the internet transactions of today. The banks, health, retail, government and all entities use these two technology. 
@@ -154,13 +158,7 @@ All are totaled at 256 bytes (2048 bits)
 
 6. main.cpp (this takes care of the implementation we desire)                      
 
-# OBJECTIVE:
-
-To show that there is a cryptographic approach that fits into the ideal
-quantum cryptography. Lattice basis is just an image of what is already there. A low cost, pervasive and high entropy that increases AES capacity to roughly 10 times. Thereby, mitigates the effects of 
-post-quantum breaches.
-
-ADVANTAGES OF THE NEW APPROACH or AXIOMS:
+# ADVANTAGES OF THE NEW APPROACH or AXIOMS:
 
 1. GF 2^p where p =< 8; -> GF 2^p, where p !<8 && p > 8 || 00 (or goes to infinity).
 
