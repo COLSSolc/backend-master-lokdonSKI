@@ -179,6 +179,8 @@ Using a mapping scheme of ST to KT and multi-mode-wrapping to achieve the afore 
 
 7. The output or ciphertext from the message input in M1 is used as input in M2. The ciphertext from mode two is used as the input in mode three M3. The ciphertect from mode three is used as input for mode four M4. The ciphertext from mode four is used as input for mode five M5. This is Homomorphic encryption mechanism. The homomorphic encryption (HE) properties makes possible the flexibility of the algorithm ( M1-M5) as public key encyrption. This encrypts from this wrapping technique could be used for ZKP.
 
+8. The complexity is O(n=message.length)
+
 ASSUMPTIONS:									     		
 1. Modern primitives of cryptography only recognizes 2S or 2 stable standard signal state. e.g 0/1  
 2. Post-quantum cryptography must recognize 4S or 4 stable standard signal state e.g various atomic state or photon’ superposition.  
