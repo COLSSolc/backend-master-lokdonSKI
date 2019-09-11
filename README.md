@@ -126,6 +126,12 @@ Note the replacement of the unstripped m2mpin with m3mpin keys’ position
 
 in this order the attacker may never be able to go back to M1 if at all they gain access to the network. M3mpin could be used as a digital signature of each user in the network. 
 
+# Simply put->
+	   [   1. The M3PIN will serve as the Public key and intermediate representation (IR) for (ZKP)*****
+               2. The seeding positions (Pn) serve the purpose of key encapsulation (KEM)***** 
+	       3. Signatures (reflecting biometrics this time) are infused in the IR of ZKP*****
+	       4. Public key encryption or any encryptiong is borne withing the scheme as a whole***** ]
+
 # C++ Package demonstration \\\___  \___   \___ \___ \___  \___  \___  \___ \___ \___ \___  \___ \___  \___ \___  \___ \___  \___ \___  \___ \___  \___ \___  \___ \___\\\
 
 1. KnightSolver.cpp (This solves the open knights tour with numbers >> KT)
