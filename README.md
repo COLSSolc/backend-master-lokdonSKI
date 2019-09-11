@@ -120,8 +120,10 @@ Note the replacement of the unstripped m2mpin with m3mpin keys’ position
 
 in this order the attacker may never be able to go back to M1 if at all they gain access to the network. M3mpin could be used as a digital signature of each user in the network. 
 
-# C++ Package demonstration contents>>  \___  \___   \___ \___ \___  \___  \___  \___ \___ \___ \___  \___ \___  \___ \___  \___                                                                                                                                                      
+# C++ Package demonstration>>  \___  \___   \___ \___ \___  \___  \___  \___ \___ \___ \___  \___ \___  \___ \___  \___ 
+
 1. KnightSolver.cpp (This solves the open knights tour with numbers >> KT)
+
 2. st.cpp (This is the unicode component order of written or spoken words >> ST)
 
 <<96 chars for Latin-1 Supplement   
