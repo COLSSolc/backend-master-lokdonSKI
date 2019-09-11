@@ -190,7 +190,7 @@ ASSUMPTIONS:
 2. Post-quantum cryptography must recognize 4S or 4 stable standard signal state e.g various atomic state or photon’ superposition.  
 4. We assume an ideal environment without anomalies
 
-# ***Basic Analysis of QC
+# ***Basic Analysis of QC & LFKI 
 
 We summed up axioms based on the current information and the implementation of modern cryptography.
 
@@ -227,7 +227,9 @@ MESSAGE TEXT:
 
 Well, the answer is actually no - rather than generating fancy fonts, this converter creates fancy symbols. The explanation starts with unicode; an industry standard which creates the specification for thousands of different symbols and characters. All the characters that you see on your electronic devices, and printed in books, are likely specified by the unicode standard."
 
-Although we mentioned ASCII wide-char, the unicode were put in use for java users. You can run this on cryptool to see how it defies today's analysis of cryptogrphy.
+Although we mentioned ASCII wide-char, the unicode were put in use for java users. You can run this on cryptool to see how it defies today's analysis of cryptogrphy. 
+
+# At this point I am able to show that each instance of message encryption produces distinct ciphertexts. It could be a contextual similarity yet the ciphertext of the smallest charanter in the message will be different at every iterations. This is against the prediction of cryptographic primitives. However, it is a strenght we need to tap into. 
 
 *******************************************************************************************************************************
 # CONCLUSION:
