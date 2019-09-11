@@ -1,13 +1,15 @@
-# Lokdon Secret Key Infrastructure (SKI) for Quantum Resistant Computing
+# Lattice-Face Key Infrastructure (LFKI) for Quantum Resistant Computing
 
 *******************************************************************************************************************************!
 *******************************************************************************************************************************!
-LokDon security project: Josiah Johnson Umezurike. This document is a brief description of over 20 years research work. We are not mathematicians. We only want to solve the common problems of the computing world. We are aware of the havoc quantum computing will bring to the modern cryptography. Consequently, we have prepared ourselves a decade in advance. We have used AES to develop a 2048-Bit AES-hybrid. This is a low-cost high entropy; end-point to end-point cryptographic system for cloud, mobile and IoT devices (ECSMID). This system is a category of hard NP problems closely related to numbered faces of a lattice in grid basis. This crypto shows the properties of both symmetric, asymmetric cryptography or public key infrastructure.
+LokDon security project: Josiah Johnson Umezurike. This document is a brief description of over 20 years research work. We are not mathematicians. We only want to solve the common problems of the computing world. We are aware of the havoc quantum computing will bring to the modern cryptography. Consequently, we have prepared ourselves a decade in advance. We have used AES to develop a 2048-Bit AES-hybrid. This is a low-cost high entropy; end-point to end-point cryptographic system for cloud, mobile and IoT devices (ECSMID). The reference specification is a category of hard NP problems closely related to numbered faces of a lattice basis or matrix . This cryptography shows the properties of both symmetric, asymmetric cryptography or public key infrastructure (PKE, KEM and DS).
 *******************************************************************************************************************************!
 *******************************************************************************************************************************!
 
-# Problem 
-The Frailty of PKI and AES: There are numerous talks about PKI. Ponemon institute, Gartner, IBM and many other reliable and prolific sources had mentioned their worries about the future of PKI as we know it. More so, PKI and AES are the dominant part of the mechanism securing the internet transactions of today. The banks, health, retail, government and all entities use these two technology. They are supposed to secure and make private each communication whenever you access any secure website. It is speculated that since PKI is based on mathematics (N = p * q ), Phi(N) = (p-1)*(q-1) where (e, N) is the public keys and (d, N) is the private key. There is a condition e { integer; 1<e<phi(N); & co-primes (sharing no factors) with N & phi(N)}. Choose d such that, { e*d mod phi(N) = 1}:
+# An Overview of current cyrptopgrapy:
+The Frailty of PKI and AES: There are numerous talks about PKI. Ponemon institute, Gartner, IBM and many other reliable and prolific sources had mentioned their worries about the future of PKI as we know it. More so, PKI and AES are the dominant part of the mechanism securing the internet transactions of today. The banks, health, retail, government and all entities use these two technology. 
+
+They are supposed to secure and make private each communication whenever you access any secure website. It is a scientific knowledge that PKI is based on mathematics: Where in, (N = p * q ), Phi(N) = (p-1)*(q-1) where (e, N) is the public keys and (d, N) is the private key. There is a condition e { integer; 1<e<phi(N); & co-primes (sharing no factors) with N & phi(N)}. Choose d such that, { e*d mod phi(N) = 1}:
 
 Asymmetric:
 
@@ -16,9 +18,6 @@ Encrypted data ( c) = msg^e mod N
 Decrypted data  (msg) = c^d mod N
 
 AES will suffer a similarly if not the same fate as RSA. The future of quantum computer will certainly vilify it. We don't really have to wait into the future anyway. People are already saving petabytes of data in cloud. These will be disclosed as soon as quantum computer becomes available. 
-
-The Fear:
-If anyone can obtain the factors of the lager number N with d (public key) any message will be decrypted. You should also note that Quantum computing has the potentials to solve the math and/or crack these numbers in a short period of time. This is usually known as polynomial time. In that case the RSA math will no longer be a hard problem of a non-deterministic polynomial (NP). 
 
 Symmetric:
 
@@ -32,17 +31,27 @@ Lets look at it this way: There are many orderly ways to pick out 2 distinct num
 Let n = 10 and k =2
 nPk =  10!/8! = 90
 
-Each 2 distinct numbers (seed) found on the matrix will further generate another 680 digit long numbers. The 680 digit long numbers are now used the the encryption keys. Normally 5 sets are needed at least. We will discuss this further in the paper.
+Each 2 distinct numbers (seed) found on the matrix will further generate another 680 digit long numbers. The 680 digit long numbers are now used the the encryption keys. Normally 5 sets are needed at least for the proposed refenrence specification. We will discuss this further in the paper.
 
-# Solution to the problems:
+# The Problem:
+If anyone can obtain the factors of the lager number N with d (public key) any message will be decrypted. You should also note that Quantum computing has the potentials to solve the math and/or crack these numbers in a short period of time according to Shor' Algorithm [1]. This is usually known as polynomial time. In that case the RSA math will no longer be a hard problem of a non-deterministic polynomial (NP). Qubit as the stable standard signal states of a quantum algorithm or computher will also render any form of classical cryptography useless.
 
-We believe that any mathematical problem is there to be solved. This means that our crown jewel cannot depend on any mathematical function based on Fermat's theorem to be safe guarded eternally. Quantum computing will wreak havoc on modern day cryptography whenever it finally gets into the hands of consumers. The idea one must have will be to find a solution, not to wait for a solution to present itself. To solve this problem, we used 3D shapes and their properties: Especially the face of a cuboid in Galois field. The properties like face, edges and vertices come in handy in assumes infinite space. You can get a flux from these properties as a result of vectors which forms regular point in Euclidean to enhance orientation just like you see in lattice basis. To put all these terms programmatically (codes) the idea of a matrix formation, transposition, transformation and substitution serves us well. The face of lattice will have points or vectors. Same goes to a matrix. Therefore, Flux = double integral F*n dS where n=1. This means that any normal face in a shape will have a regular arrangement of point in Euclidean space (lattice). In this sense, following the elements of Galois' field; a matrix can hold a lattice: It is a lattice too. It will have points upon which forces can interact with it. 
+# SOLUTION TO THE PROBLEM:
 
-We thought of n = infinity for the Galois field equation which was based on Euclidean space. Imagine that, this is in opposition to present day symmetrical cryptographic limiting scopes. In cryptography this means that those points can represent encryption and decryption components of data by satisfying gf(p^n) where n=00 or infinity. The flux analogy herein depends on the surface area or orientation of the shape and forces (analysis) on them. The changing flux will be likened to the changing entropy at every turn of the algorithm (operation) owed to noise. The total flux is the product of the basis surface area, force and normal vectors. To make a long story short, we created a system of quantum immunity or resistance for the computation by replacing the vectors or points with characters of written words. We carefully chose certain Unicode characters. These formulates the state. Subsequent generation of numbers from these faces following position (Pn=0 - Pn=255) gives rise to other sets (680 digits long) which could be used as cipher templates. These points are numbers generated from the chaotic regularity found in faces of stars, flakes of snow and silicon shapes (of course in 3D). This system comes with a powerful wrapping mechanism. That’s what makes it possible to be used as an exchange channel like what we have in PKI public and private key. We are not going to discuss the full details in this paper at once. However, the school of thought defers from the popular opinion of Shortest Vector Problem (SVP) associated with the current lattice solutions or NP-Complete replica. We deduced from our research that open knight tour on a lattice basis is a harder problem than SVP. It cannot be solved by a quantume computer as long as the matrix is EQUAL or Greater than 16 for the column as well as the row.
+In the wake of these problems are many proposasl for the direction of modern cryptography. There are 1. Lattice basis cryptography 2. Code base cryptography 3. Multivariate cryptography. Some of these are the secod runners of NIST: Meaning that they are still being considered in the second round of NIST standardization for cryptography. We believe that any mathematical problem is there to be solved. This means that our crown jewel cannot depend on any mathematical function based on Fermat's theorem to be safe guarded eternally. Quantum computing will wreak havoc on modern day cryptography whenever it finally gets into the hands of consumers.  
 
-# "A quantum machine with qubits orientation cannot resolve with certainty an open knight tour (OKT) of lattice basis if the column (c) and the row (r) of the matix are repectively of c=>16 and r=>16. If any set of keys generated from the matrix postion (Pn) follow n! where n=>256. If comparing any two position on the lattice to sniff out similar 680 long keys is impossible. This probably is the hardest NP complete problem."
+The idea one must have will be to find a solution, not to wait for a solution to present itself.
 
-Relying on the above premises we have been able to put together an algorithm that combines symmetric and asymmetric cryptography, standing strong enough to resist attacks from quantum computing. - Secret key infrastructure (SKI)-- It recognizes and applies:
+# Specification
+To solve this problem, we used 3D shapes and their properties: Especially the face of a cuboid in Galois field. The properties like face, edges and vertices come in handy in assumes infinite space. You can get a flux from these properties as a result of vectors which forms regular point in Euclidean to enhance orientation just like you see in lattice basis. To put all these terms programmatically (code) the idea of a matrix formation, transposition, transformation and substitution serves us well. The face of lattice will have points or vectors. Same goes to a matrix which is a representation of the lattice. [Therefore, Flux = double integral F*n dS where n=1]. This means that any normal face in a shape will have a regular arrangement of point in Euclidean space (lattice). In this sense, following the elements of Galois' field; a matrix, mathematically can hold a lattice: It is a lattice blue print as well. It will have points upon which forces can interact with it. This means that changes in choosing any these points could change the matrix or the indices they bear. Below is the explanation if informational entropy.
+
+"Mathematically, this is expressed as H ( M ) = H ( M | C ) {\textstyle \mathrm {H} (M)=\mathrm {H} (M|C)} {\textstyle \mathrm {H} (M)=\mathrm {H} (M|C)}, where H ( M ) {\textstyle \mathrm {H} (M)} {\textstyle \mathrm {H} (M)} is the information entropy of the plaintext and H ( M | C ) {\textstyle \mathrm {H} (M|C)} {\textstyle \mathrm {H} (M|C)} is the conditional entropy of the plaintext given the ciphertext C. (Here, 'Η' is the capital greek letter eta.) This implies that for every message M and corresponding ciphertext C, there must be at least one key K that binds them as a one-time pad. Mathematically speaking, this means K ≥ C ≥ M {\textstyle K\geq C\geq M} {\textstyle K\geq C\geq M}, where K , C , M {\textstyle K,C,M} {\textstyle K,C,M} denotes the distinct quantity of keys, ciphers and messages. In other words, if you need to be able to go from any plaintext in message space M to any cipher in cipher-space C (encryption) and from any cipher in cipher-space C to a plain text in message space M (decryption), you need at least | M | = | C | {\displaystyle |M|=|C|} {\displaystyle |M|=|C|} keys (all keys used with equal probability of 1 / | K | {\displaystyle 1/|K|} {\displaystyle 1/|K|} to ensure perfect secrecy)". [7]
+
+We thought of n = infinity for the Galois field equation which was based on Euclidean space. Imagine that, this is in opposition to present day symmetrical cryptographic limiting scopes. In cryptography this means that those points can represent encryption and decryption components of data by satisfying gf(p^n) where n=00 or infinity. The flux analogy herein depends on the surface area or orientation of the shape and forces (analysis) on them. The changing flux will be likened to the changing entropy at every turn of the algorithm (operation) owed to noise. The total flux is the product of the basis surface area, force and normal vectors. To make a long story short, we created a system of quantum immunity or resistance for the computation by replacing the vectors or points with characters of written words. We carefully chose certain Unicode characters. These formulates the state. Subsequent generation of numbers from these faces following position (Pn=0 - Pn=255) gives rise to other sets (680 digits long) which could be used as cipher templates. These points are numbers generated from the chaotic regularity found in faces of stars, flakes of snow and silicon shapes (of course in 3D). This system comes with a powerful wrapping mechanism. That’s what makes it possible to be used as an exchange channel like what we have in PKI public and private key. We are not going to discuss the full details in this paper at once. However, the school of thought defers from the popular opinion of Shortest Vector Problem (SVP) associated with the current lattice solutions or NP-Complete replica. We deduced from our research that open knight tour on a lattice basis is a harder problem than SVP. It cannot be solved by a quantum computer as long as the matrix is EQUAL or Greater than 16 for the column as well as the row.
+
+# "A quantum machine with qubits orientation cannot resolve with certainty an legal open knight tour (OKT) of lattice basis if the column (c) and the row (r) of the matix are repectively of c=>16 and r=>16. If any set of keys generated from the matrix postion (Pn) follow n! where n=>256. If comparing any two position on the lattice to sniff out similar 680 long keys is impossible. This probably is the hardest NP complete problem."
+
+Relying on the above premises we have been able to put together this reference specification of an algorithm that combines symmetric and asymmetric cryptography using ZERO KNOWLEDGE triangle flow and homomorphic encryption, standing strong enough to resist attacks from quantum computing. - Lattice-Face Key Infrastructure (LFKI)-- It recognizes and applies:
 
  a) public key encryption - 2048 bits AES-hybrid is used for encryption in wraps or modes
  
@@ -56,8 +65,20 @@ Relying on the above premises we have been able to put together an algorithm tha
       
 The minimum modes for any encryption done is usually 5 or m5 for this system. However, you can encrypt anything (a message etc) from M1 to Mnth. This could be applied in telecommunications, IT, aeronautics, litography, medicine and health, reatil, finance and education.
 
-# Full M5 mechanism
-This method could operate on the password and volumetric data as well. You can also use the message C in place of the password.
+# Architecture of data
+It has an elegant, simple and easy to implement approach. Our social mode of interaction on the media had made possible for us to easily figure out what works. Many profile today are comprised of attributes. Therefore, we reduce data into certain groups for seemingly public key implementation.
+
+Digital Nucleus Agregator(DnA): These are attributes that can be converted to encrypted strings for various intermediate representation in the digital space. e.g Name, SS#, eFri, DOB, PIN, Address, password Gender, Driver license# etc. It could be anything of your choosing. Profiles rely on DnA as their building blocks for intermediate representation in this reference.
+DnA are derived from profiles attributes as we will demonstrate later.
+
+Digital Data Nucleus Authority (DDnA): These are integration of multi DnAs. This could be held locally or externally in a data base or function-running code platform such as lambda in aws cloud. The architecture creates a bank as good as a phone book. This where all the intermediate representation could be found in encrypt forms followng homomorphinencoding or encyption algorithms.  
+
+
+# Infrastructure of LFK
+* Full M5 mechanism
+This method could operate on any DnA proped by any attribute. Note we will demonstrate DnA using password as input. We will also demonstrate volumetric data scheme using the message and any DnA as input for this algorithm. 
+
+You can also use message C in place of the password.
 
 Password + silent password = CT1 --> M1 encrypt --- [ciphertext1]^[P spktn][P ktn]                  M1
 
@@ -69,7 +90,11 @@ CT3 + silent password = CT4 --> M4 encrypt --- [ciphertext4]^[P spktn][P ktn ]  
 
 CT4 + silent password = CT5 --> M5 encrypt --- [ciphertext5]^[P spktn][P ktn ]                      M5
 
-When an offset is added the length of the encyrypted message C. That no longer depicts the length of the key. Rather a periodic random key k is used to match the length of the message. This voids the condition voids a condition of the classical stream cipher requirements. Especially the one time pad scenario.
+When an offset is added to the length of the encyrypted message C or CT (ciphertext). That no longer represents the length of the message. Rather a periodic random key k is used to match the length of the message. This does not voids the condition of the classical stream cipher requirements: The message or ciphertext are one to one function and as long as the part (silent password as used randomly in this reference) of key length bearing a perfect secrecy [2]. Especially the one time pad scenario is:
+
+"Another way of stating perfect secrecy is based on the idea that for all messages m 1 , m 2 {\displaystyle m_{1},m_{2}} {\displaystyle m_{1},m_{2}} in message space M, and for all ciphers c in cipher space C, we have Pr k ⇐ K [ E k ( m 1 ) = c ] = Pr k ⇐ K [ E k ( m 2 ) = c ] {\displaystyle {\underset {k\Leftarrow \mathrm {K} }{\operatorname {Pr} }}[E_{k}(m_{1})=c]={\underset {k\Leftarrow \mathrm {K} }{\operatorname {Pr} }}[E_{k}(m_{2})=c]} {\displaystyle {\underset {k\Leftarrow \mathrm {K} }{\operatorname {Pr} }}[E_{k}(m_{1})=c]={\underset {k\Leftarrow \mathrm {K} }{\operatorname {Pr} }}[E_{k}(m_{2})=c]}, where Pr {\textstyle \operatorname {Pr} } {\textstyle \operatorname {Pr} } represents the probabilities, taken over a choice of k {\displaystyle k} k in key space K {\displaystyle \mathrm {K} } \Kappa over the coin tosses of a probabilistic algorithm, E {\displaystyle E} E. Perfect secrecy is a strong notion of cryptanalytic difficulty".
+
+Also note that as long as the key remains dynamic no expended key will be generated from the faces of the lattice or positin (Pn) of the matrix neither will they be used again. Every 680 longs key is used just once. Lets us explore volumetric data scheme in this algorithm. We are Oring the message with the modular PIN (MPIN). A PIN is naturally 4-6 digits numbers. In this reference two charancters represents each of the PIN numbers making the overal characters 2 * PIN. 
 
 Data + mpin encrypt = CT1 --> M1 encrypt -->[ciphertext1]^[mpinm3 encrypt]^[Pktn]^[P mpinktn] -- >   M1
 
@@ -81,7 +106,7 @@ M3 + mpin encrypt = CT4 --> M4 encrypt -->[ciphertext4]^[mpinm2 encrypt]^[Pktn]^
 
 M4 + mpin encrypt = CT5 --> M5 encrypt -->[ciphertext5]^[mpinm2 encrypt]^[Pktn]^[P mpinktn] -- >     M5
 
-Following the above process, the mpin encrypt is shown is that of the recipients if one is sending a message requiring ZKP. For example, M3 mpin of position (P mpinktn=3) is tripped and sent with the message:
+Following the above process, the mpin encrypt shown is that of the recipients. If one is sending a message requiring ZKP. For example, M3 mpin of position (P mpinktn=3) is tripped and sent with the message:
 
 Data + mpin encrypt = CT5 --> M5 encrypt -->[ciphertext1]^[mpinm3 encrypt]^[Pktn]^[P mpinktn] -- > M5
 
@@ -93,9 +118,9 @@ On your device you have mpinm2 encrypt:
 Note the replacement of the unstripped m2mpin with m3mpin keys’ position
 [mpinm2 encrypt]^[P mpinktn=3]
 
-This way the attacker may never be able to go back to M1 if at all they gain access to the network. M3mpin could be used as a digital signature of each user in the network. 
+in this order the attacker may never be able to go back to M1 if at all they gain access to the network. M3mpin could be used as a digital signature of each user in the network. 
 
-C++ Package demonstration contents>>  \___  \___   \___ \___ \___  \___  \___  \___ \___ \___ \___  \___ \___  \___ \___  \___                                                                                                                                                      
+# C++ Package demonstration contents>>  \___  \___   \___ \___ \___  \___  \___  \___ \___ \___ \___  \___ \___  \___ \___  \___                                                                                                                                                      
 1. KnightSolver.cpp (This solves the open knights tour with numbers >> KT)
 2. st.cpp (This is the unicode component order of written or spoken words >> ST)
 
@@ -133,13 +158,13 @@ To show that there is a cryptographic approach that fits into the ideal
 quantum cryptography. Lattice basis is just an image of what is already there. A low cost, pervasive and high entropy that increases AES capacity to roughly 10 times. Thereby, mitigates the effects of 
 post-quantum breaches.
 
-NEW APPROACH or AXIOMS:
+ADVANTAGES OF THE NEW APPROACH or AXIOMS:
 
 1. GF 2^p where p =< 8; -> GF 2^p, where p !<8 && p > 8 || 00 (or goes to infinity).
 
 2. Non-Deterministic Polynomial problems (hard problems) are reconsidered for 16 * 16 matrix e.g We embodied KT as a hard (NP-Complete) problem with no other complexity to derive ciphertext from cryptographic engine; O(m) in complexity. It is also noted that this very system originates lattice base cryptography.
 
-3. Knight's tour of any size could be solved in non-polynomial time; deterministic reduction. The bigger the scope the more time it will take to solve. Balancing symmetric stream of block (key) size, encryption time and implementation could yield cryptography of the future.
+3. Knight's tour (KT) could NOT be solved in polynomial time within unbounded field. A matrix of scope is of bounded field that could hold solutions of KT just like the elements of lattice vertices. The changing nature of the nodes owing to the decision needed to advance to another element happend as a deterministic reduction. There is also a randomized reduction of seeding the key generation. The bigger the scope the more time it will take to negotiate and decide a fitting node just like in neural networks. WIth this in view balancing symmetric stream of block (key) significant size, encryption time and implementation could yield cryptography of the future.
 
 4. Similarly, AES exhibits the characteristics observed by the movement of the values held in the indices of GF of scope 16 * 16 matrix or lattice basis. Each knight' tour opens at 0 position by tracing a clean sweep the elements of the matrix and closes at another position 255. Therefore, the new approach reflects:
 a. Sub bytes
@@ -206,7 +231,9 @@ One might not fully understand all the possibilities in the proposition of the a
 *******************************************************************************************************************************
 # REFERENCES
 
-[1] https://www.cs.umd.edu/~huqi/MasterThesisR.pdf
+[1] Shor, P.W. "Algorithms for quantum computation: discrete logarithms and factoring". Proceedings 35th Annual Symposium on Foundations of Computer Science. IEEE Comput. Soc. Press. doi:10.1109/sfcs.1994.365700. ISBN 0818665807
+
+[2] Shannon, Claude (1949). "Communication Theory of Secrecy Systems". Bell System Technical Journal. 28 (4): 656–715. doi:10.1002/j.1538-7305.1949.tb00928.x. hdl:10338.dmlcz/119717.
 
 [2] https://sites.math.washington.edu/~morrow/336_12/papers/juan.pdf
 
@@ -215,3 +242,7 @@ One might not fully understand all the possibilities in the proposition of the a
 [4] https://blog.trailofbits.com/2018/10/22/a-guide-to-post-quantum-cryptography/
 
 [5] Niklas Johansson et al. Quantum Simulation Logic, Oracles, and the Quantum Advantage, Entropy (2019). DOI: 10.3390/e21080800
+
+[6] https://www.cs.umd.edu/~huqi/MasterThesisR.pdf
+
+[7] https://en.wikipedia.org/wiki/One-time_pad#cite_note-shannon-3
