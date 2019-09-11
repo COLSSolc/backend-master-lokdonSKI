@@ -128,9 +128,12 @@ in this order the attacker may never be able to go back to M1 if at all they gai
 
 # Simply put->
 	   [   1. The M3PIN will serve as the Public key and intermediate representation (IR) for (ZKP)*****
+	   
                2. The seeding positions (Pn) serve the purpose of key encapsulation (KEM)***** 
+	       
 	       3. Signatures (reflecting biometrics this time) are infused in the IR of ZKP*****
-	       4. Public key encryption or any encryptiong is borne withing the scheme as a whole***** ]
+	       
+	       4. Public key encryption or any encryptiong is borne withing the scheme as a whole*****       ]
 
 # C++ Package demonstration \\\___  \___   \___ \___ \___  \___  \___  \___ \___ \___ \___  \___ \___  \___ \___  \___ \___  \___ \___  \___ \___  \___ \___  \___ \___\\\
 
