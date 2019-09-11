@@ -96,7 +96,7 @@ CT4 + silent password = CT5 --> M5 encrypt --- [ciphertext5]^[P spktn][P ktn ]  
 
 When an offset is added to the length of the encyrypted message C or CT (ciphertext). That no longer represents the length of the message. Rather a periodic random key k is used to match the length of the message. This does not voids the condition of the classical stream cipher requirements: The message or ciphertext are one to one function and as long as the part (silent password as used randomly in this reference) of key length bearing a perfect secrecy [2]. Especially the one time pad scenario is:
 
-"Another way of stating perfect secrecy is based on the idea that for all messages m 1 , m 2 {\displaystyle m_{1},m_{2}} {\displaystyle m_{1},m_{2}} in message space M, and for all ciphers c in cipher space C, we have Pr k ⇐ K [ E k ( m 1 ) = c ] = Pr k ⇐ K [ E k ( m 2 ) = c ] {\displaystyle {\underset {k\Leftarrow \mathrm {K} }{\operatorname {Pr} }}[E_{k}(m_{1})=c]={\underset {k\Leftarrow \mathrm {K} }{\operatorname {Pr} }}[E_{k}(m_{2})=c]} {\displaystyle {\underset {k\Leftarrow \mathrm {K} }{\operatorname {Pr} }}[E_{k}(m_{1})=c]={\underset {k\Leftarrow \mathrm {K} }{\operatorname {Pr} }}[E_{k}(m_{2})=c]}, where Pr {\textstyle \operatorname {Pr} } {\textstyle \operatorname {Pr} } represents the probabilities, taken over a choice of k {\displaystyle k} k in key space K {\displaystyle \mathrm {K} } \Kappa over the coin tosses of a probabilistic algorithm, E {\displaystyle E} E. Perfect secrecy is a strong notion of cryptanalytic difficulty".
+"Perfect secrecy is a strong notion of cryptanalytic difficulty".
 
 Also note that as long as the key remains dynamic no expended key will be generated from the faces of the lattice or positin (Pn) of the matrix neither will they be used again. Every 680 longs key is used just once. Lets us explore volumetric data scheme in this algorithm. We are Oring the message with the modular PIN (MPIN). A PIN is naturally 4-6 digits numbers. In this reference two charancters represents each of the PIN numbers making the overal characters 2 * PIN. 
 
@@ -180,9 +180,8 @@ Using a mapping scheme of ST to KT and multi-mode-wrapping to achieve the afore 
 7. The output or ciphertext from the message input in M1 is used as input in M2. The ciphertext from mode two is used as the input in mode three M3. The ciphertect from mode three is used as input for mode four M4. The ciphertext from mode four is used as input for mode five M5. This is Homomorphic encryption mechanism. The homomorphic encryption (HE) properties makes possible the flexibility of the algorithm ( M1-M5) as public key encyrption. This encrypts from this wrapping technique could be used for ZKP.
 
 ASSUMPTIONS:									     		
-1. Modern cryptography only recognizes 2S or 2 stable standard signal state. e.g 0/1  
-2. Post-quantum cryptography must recognize 4S or 4 stable standard signal state e.g various atomic state or photon’ superposition.
-3. O(message.length) complexity  
+1. Modern primitives of cryptography only recognizes 2S or 2 stable standard signal state. e.g 0/1  
+2. Post-quantum cryptography must recognize 4S or 4 stable standard signal state e.g various atomic state or photon’ superposition.  
 4. We assume an ideal environment without anomalies
 
 # ***Basic Analysis of QC
