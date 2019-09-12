@@ -1,6 +1,6 @@
 # Lattice-Face Key Infrastructure (LFKI) for Quantum Resistant Computing
 LokDon security research project:
-Josiah Johnson Umezurike | September 12th 2019
+Josiah Johnson Umezurike | September 12th 2018
 
 
 *******************************************************************************************************************************!
