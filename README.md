@@ -42,18 +42,20 @@ If anyone can obtain the factors of the lager number N with d (public key) any m
 
 # SOLUTION TO THE PROBLEM:
 
-In the wake of these problems are many proposasl for the direction of modern cryptography. There are 1. Lattice basis cryptography 2. Code base cryptography 3. Multivariate cryptography. Some of these are the secod runners of NIST: Meaning that they are still being considered in the second round of NIST standardization for cryptography. We believe that any mathematical problem is there to be solved. This means that our crown jewel cannot depend on any mathematical function based on Fermat's theorem to be safe guarded eternally. Quantum computing will wreak havoc on modern day cryptography whenever it finally gets into the hands of consumers.  
+In the wake of these problems are many proposasl for the direction of modern cryptography. There are 1. Lattice basis cryptography 2. Code base cryptography 3. Multivariate cryptography. Some of these are the secod runners of NIST: Meaning that they are still being considered in the second round of NIST standardization for cryptography. We believe that any mathematical problem is there to be solved. This means that our crown jewel cannot depend on any mathematical function based on Fermat's theorem to be safe guarded eternally. Quantum computing will wreak havoc on modern day cryptography whenever it finally gets into the hands of consumers. 
 
-The idea one must have will be to find a solution, not to wait for a solution to present itself.
+A lattice is a set of all integral linear combinations of a given set of linearly independent points in Z^n. For a basis B={b1,...,bd} we denote the lattice it generates by L(B) ={d∑i=1; xibi|xi∈Z}. Its rank is d, and the lattice is said to be of full rank if d=n. We identify the basis {b1,...,bd} with the n×d matrix containing b1,...,bd as columns, which enables us to write the shorter L(B) ={Bx|x∈Zd}. We use both the terms lattice point and lattice vector for elements of a lattice [2].
+
+We will spend more time to introduce a new thought or insight to the understanding of the shortest vector problem (SVP) path. While it is generally a consideration for being a NP complete hard problem [3]. Randomization reduction is not enough to establish this as a case of NP Complete hard problem [AKS]. If a lattice basis must be retained; it must be an interesting one with some elegant properties that could be reduced to non-determnistic and determistic biases. The intention is not to be overly critical. There is a need to be proactive. Ones intent will be to find the rigt solution; not to accept a solution that is not ripe. This is neither to wait for a solution to present itself. A potent lattice must be dynamic with no rigid rule, yet precise with probablistic basis of transformation with respect to the input and output. -- The image of the lattice basis is a bounded matrix of interest.
 
 # Specification
 To solve this problem, we used 3D shapes and their properties: Especially the face of a cuboid in Galois field. The properties like face, edges and vertices come in handy in assumes infinite space. You can get a flux from these properties as a result of vectors which forms regular point in Euclidean to enhance orientation just like you see in lattice basis. To put all these terms programmatically (code) the idea of a matrix formation, transposition, transformation and substitution serves us well. The face of lattice will have points or vectors. Same goes to a matrix which is a representation of the lattice. [Therefore, Flux = double integral F*n dS where n=1]. This means that any normal face in a shape will have a regular arrangement of point in Euclidean space (lattice). In this sense, following the elements of Galois' field; a matrix, mathematically can hold a lattice's contents: It is then noted that a lattice is only a blue print as well. It will have points upon which forces can interact with it. This means that changes in choosing any of these points could change the matrix or the indices they bear. Below is the explanation if informational entropy.
 
-"Mathematically, this is expressed as H(C) = H (M|C), where H(M) is the informational entropy of the plainttext and H(M|C) is the conditional entropy of the plainttext given the ciphertext C.This implies that for every message M and corresponding ciphertext C, there must be at least one key K that binds them as a one-time pad. Mathematically speaking, this means K=>C=>M, where K, C, M denotes the distinct quantity of keys, ciphers and messages. In other words, if you need to be able to go from any plaintext in message space M to any cipher in cipher-space C (encryption) and from any cipher in cipher-space C to a plain text in message space M (decryption), you need at least  |M|=|C| keys (all keys used with equal probability of 1/|K| to ensure perfect secrecy."[7]
+"Mathematically, this is expressed as H(C) = H (M|C), where H(M) is the informational entropy of the plainttext and H(M|C) is the conditional entropy of the plainttext given the ciphertext C.This implies that for every message M and corresponding ciphertext C, there must be at least one key K that binds them as a one-time pad. Mathematically speaking, this means K=>C=>M, where K, C, M denotes the distinct quantity of keys, ciphers and messages. In other words, if you need to be able to go from any plaintext in message space M to any cipher in cipher-space C (encryption) and from any cipher in cipher-space C to a plain text in message space M (decryption), you need at least  |M|=|C| keys (all keys used with equal probability of 1/|K| to ensure perfect secrecy."[4]
 
-It is also a standard practise to increase entropy by introduction a modulo arithmetic which add (OR) passphrases or characters to the original messages.
+It is also a standard practise to increase entropy by introducing a modulo arithmetic which add (OR) passphrases or characters to the original messages.
 
-We thought of n = infinity for the Galois field equation which was based on Euclidean space. Imagine that, this is in opposition to present day symmetrical cryptographic limiting scopes. In cryptography this means that those points can represent encryption and decryption components of data by satisfying gf(p^n) where n=00 or infinity. The flux analogy herein depends on the surface area or orientation of the shape and forces (analysis) on them. The changing flux will be likened to the changing entropy at every turn of the algorithm (operation) owed to noise. The total flux is the product of the basis surface area, force and normal vectors. To make a long story short, we created a system of quantum immunity or resistance for the computation by replacing the vectors or points with characters of written words. We carefully chose certain Unicode characters. These formulates the state. Subsequent generation of numbers from these faces following position (Pn=0 - Pn=255) gives rise to other sets (680 digits long) which could be used as cipher templates. These points are numbers generated from the chaotic regularity found in faces of stars, flakes of snow and silicon shapes (of course in 3D). This system comes with a powerful wrapping mechanism. That’s what makes it possible to be used as an exchange channel like what we have in PKI public and private key. We are not going to discuss the full details in this paper at once. However, the school of thought defers from the popular opinion of Shortest Vector Problem (SVP) associated with the current lattice solutions or NP-Complete replica. We deduced from our research that open knight tour on a lattice basis is a harder problem than SVP. It cannot be solved by a quantum computer as long as the matrix is EQUAL or Greater than 16 for the column as well as the row.
+We thought of n = infinity for the Galois field equation which was based on Euclidean space. Imagine that, this is in opposition to present day symmetrical cryptographic limiting scopes. In cryptography this means that those points can represent encryption and decryption components of data by satisfying gf(p^n) where n=00 or infinity. The flux analogy herein depends on the surface area or orientation of the shape and forces (analysis) on them. The changing flux will be likened to the changing entropy at every turn of the algorithm (operation) owed to noise. The total flux is the product of the basis surface area, force and normal vectors. To make a long story short, we created a system of quantum immunity or resistance for the computation by replacing the vectors or points with characters of written words. We carefully chose certain Unicode characters. These formulates the state. Subsequent generation of numbers from these faces following position (Pn=0 - Pn=255) gives rise to other sets (680 digits long) which could be used as cipher templates. These points are numbers generated from the chaotic regularity found in faces of stars, flakes of snow and silicon shapes (of course in 3D). This system comes with a powerful wrapping mechanism. That’s what makes it possible to be used as an exchange channel like what we have in PKI public and private key. We are not going to discuss the full details in this paper at once. However, the school of thought defers from the popular opinion of Shortest Vector Problem (SVP) associated with the current lattice solutions or NP-Complete replica. We deduced from our research that open knight tour (image of lattice basis) on a lattice basis is a harder problem than SVP [5]. It cannot be solved by a quantum computer as long as the matrix is EQUAL && Greater than 16 for the columns as well as the rows.
 
 # "A quantum machine with qubits orientation cannot resolve with certainty an legal open knight tour (OKT) of lattice basis if the column (c) and the row (r) of the matix are repectively of c=>16 and r=>16. If any set of keys generated from the matrix postion (Pn) follow n! where n=>256. If comparing any two position on the lattice to sniff out similar 680 long keys is impossible. This probably is the hardest NP complete problem."
 
@@ -96,7 +98,7 @@ CT3 + silent password = CT4 --> M4 encrypt --- [ciphertext4]^[P spktn][P ktn ]  
 
 CT4 + silent password = CT5 --> M5 encrypt --- [ciphertext5]^[P spktn][P ktn ]                      M5
 
-When an offset is added to the length of the encyrypted message C or CT (ciphertext). That no longer represents the length of the message. Rather a periodic random key k is used to match the length of the message. This does not voids the condition of the classical stream cipher requirements: The message or ciphertext are one to one function and as long as the part (silent password as used randomly in this reference) of key length bearing a perfect secrecy [2]. Especially the one time pad scenario is:
+When an offset is added to the length of the encyrypted message C or CT (ciphertext). That no longer represents the length of the message. Rather a periodic random key k is used to match the length of the message. This does not voids the condition of the classical stream cipher requirements: The message or ciphertext are one to one function and as long as the part (silent password as used randomly in this reference) of key length bearing a perfect secrecy [6]. Especially the one time pad scenario is:
 
 "Perfect secrecy is a strong notion of cryptanalytic difficulty".
 
@@ -173,7 +175,7 @@ All are totaled at 256 bytes (2048 bits)
 
 1. GF 2^p where p =< 8; -> GF 2^p, where p !<8 && p > 8 || 00 (or goes to infinity).
 
-2. Non-Deterministic Polynomial problems (hard problems) are reconsidered for 16 * 16 matrix e.g We embodied KT as a hard (NP-Complete) problem with no other complexity to derive ciphertext from cryptographic engine; O(m) in complexity. It is also noted that this very system originates lattice base cryptography.
+2. Non-Deterministic reduction insinuating that hard problem arises from 16 * 16 matrix e.g We embodied KT as a hard (NP-Complete) problem with other complexities and biases to derive ciphertext from cryptographic engine. It is also noted that this very system does not originates lattice base cryptography but shades light on the form.
 
 3. Knight's tour (KT) could NOT be solved in polynomial time within unbounded field. A matrix of scope is of bounded field that could hold solutions of KT just like the elements of lattice vertices. The changing nature of the nodes owing to the decision needed to advance to another element happend as a deterministic reduction. There is also a randomized reduction of seeding the key generation. The bigger the scope the more time it will take to negotiate and decide a fitting node just like in neural networks. WIth this in view balancing symmetric stream of block (key) significant size, encryption time and implementation could yield cryptography of the future.
 
@@ -249,16 +251,26 @@ One might not fully understand all the possibilities in the proposition of the a
 
 [1] Shor, P.W. "Algorithms for quantum computation: discrete logarithms and factoring". Proceedings 35th Annual Symposium on Foundations of Computer Science. IEEE Comput. Soc. Press. doi:10.1109/sfcs.1994.365700. ISBN 0818665807
 
-[2] Shannon, Claude (1949). "Communication Theory of Secrecy Systems". Bell System Technical Journal. 28 (4): 656–715. doi:10.1002/j.1538-7305.1949.tb00928.x. hdl:10338.dmlcz/119717.
+[AKS] M. Ajtai, R. Kumar, and D. Sivakumar,A Sieve Algorithm for the Shortest Vector Problem, Proc.33rd Symp. Theory of Computing (STOC), pp. 601–610, 2001
 
-[2] https://sites.math.washington.edu/~morrow/336_12/papers/juan.pdf
+[2] https://blog.trailofbits.com/2018/10/22/a-guide-to-post-quantum-cryptography/
 
-[3] https://math.oregonstate.edu/home/programs/undergrad/CalculusQuestStudyGuides/vcalc/flux/flux.html
+[3] https://www.csie.nuk.edu.tw/~cychen/Lattices/The%20shortest%20vector%20problem%20in%20L2%20is%20NP-hard%20for%20randomized%20reductions%20(extended%20abstract).pdf
 
-[4] https://blog.trailofbits.com/2018/10/22/a-guide-to-post-quantum-cryptography/
+[4] Thijs Laarhoven, Joop van de Pol, Benne de Weger "Solving Hard Lattice Problems and the Security ofLattice-Based Cryptosystems" ∗ September 10, 2012
+https://eprint.iacr.org/2012/533.pdf
 
 [5] Niklas Johansson et al. Quantum Simulation Logic, Oracles, and the Quantum Advantage, Entropy (2019). DOI: 10.3390/e21080800
 
-[6] https://www.cs.umd.edu/~huqi/MasterThesisR.pdf
+[6] Shannon, Claude (1949). "Communication Theory of Secrecy Systems". Bell System Technical Journal. 28 (4): 656–715. doi:10.1002/j.1538-7305.1949.tb00928.x. hdl:10338.dmlcz/119717.
 
-[7] https://en.wikipedia.org/wiki/One-time_pad#cite_note-shannon-3
+[7] https://sites.math.washington.edu/~morrow/336_12/papers/juan.pdf
+
+[8] https://math.oregonstate.edu/home/programs/undergrad/CalculusQuestStudyGuides/vcalc/flux/flux.html
+
+[9] https://blog.trailofbits.com/2018/10/22/a-guide-to-post-quantum-cryptography/
+
+
+[10] https://www.cs.umd.edu/~huqi/MasterThesisR.pdf
+
+[11] https://en.wikipedia.org/wiki/One-time_pad#cite_note-shannon-3
