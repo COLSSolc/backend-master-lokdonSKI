@@ -238,9 +238,9 @@ MESSAGE TEXT:
 
 Well, the answer is actually no - rather than generating fancy fonts, this converter creates fancy symbols. The explanation starts with unicode; an industry standard which creates the specification for thousands of different symbols and characters. All the characters that you see on your electronic devices, and printed in books, are likely specified by the unicode standard."
 
-Although we mentioned ASCII wide-char, the unicode were put in use for java users. You can run this on cryptool to see how it defies today's analysis of cryptogrphy. 
+Although we mentioned ASCII wide-character, the unicode were explored java for those unfamiliar with C++. You can run the ciphertext output on ‘cryptool’ to see how it defies today's analysis of cryptography. 
 
-# At this point I am able to show that each instance of message encryption produces distinct ciphertexts. It could be a contextual similarity yet the ciphertext of the smallest charanter in the message will be different at every iterations. This is against the prediction of cryptographic primitives. However, it is a strenght we need to tap into. 
+# At this point, We are able, to show that each instance of message encryption produces distinct ciphertexts. It could be a contextual similarity yet the ciphertext of the smallest character in the message will be different at every iteration. This is against the prediction of cryptographic primitives. However, it is a strength we need to tap into. 
 
 *******************************************************************************************************************************
 # CONCLUSION:
