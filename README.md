@@ -135,7 +135,7 @@ in this order the attacker may never be able to go back to M1 if at all they gai
 	       
 	       3. Signatures (reflecting biometrics this time) are infused in the IR of ZKP*****
 	       
-	       4. Public key encryption or any encryptiong is borne withing the scheme as a whole*****       ]
+	       4. Public key encryption or any encoding is borne within the scheme as a whole*****       ]
 
 # C++ Package demonstration \\\___  \___   \___ \___ \___  \___  \___  \___ \___ \___ \___  \___ \___  \___ \___  \___ \___  \___ \___  \___ \___  \___ \___  \___ \___\\\
 
