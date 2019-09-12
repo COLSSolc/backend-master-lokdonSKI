@@ -1,10 +1,20 @@
 # Lattice-Face Key Infrastructure (LFKI) for Quantum Resistant Computing
+LokDon security research project:
+Josiah Johnson Umezurike | September 12th 2019
+
 
 *******************************************************************************************************************************!
 *******************************************************************************************************************************!
-LokDon security project: Josiah Johnson Umezurike. This document is a brief description of over 20 years research work. We are not mathematicians. We only want to solve the common problems of the computing world from the practitioner's perspective. We are aware of the havoc quantum computing will bring to the modern cryptography. Consequently, we have prepared ourselves a decade in advance. We have used AES to develop a 2048-Bit AES-hybrid. This is a low-cost, high entropy, end-point to end-point cryptographic system for cloud, mobile and IoT devices (ECSMID). The reference specification is a category of hard NP problems closely related to numbered faces of a lattice basis or matrix. This cryptography shows the properties of both symmetric, asymmetric cryptography or public key infrastructure (PKE, KEM and DS).
+#Forward
+
+This document is a brief description of over 20 years research work. We are not mathematicians. We only want to solve the common problems of the computing world from the practitioner's perspective. We are aware of the havoc quantum computing will bring to the modern cryptography. Consequently, we have prepared ourselves a decade in advance. We have used AES to develop a 2048-Bit AES-hybrid. This is a low-cost, high entropy, end-point to end-point cryptographic system for cloud, mobile and IoT devices (ECSMID). The reference specification is a category of hard NP problems closely related to numbered faces of a lattice basis or matrix. This cryptography shows the properties of both symmetric, asymmetric cryptography or public key infrastructure (PKE, KEM and DS).
 *******************************************************************************************************************************!
 *******************************************************************************************************************************!
+# Abstract
+
+Many works on lattice basis use one reduction in bias especially deterministic one to prove that the lattices are of an interesting hard problem within the set of NP Complete problems. The shortest vector problem (SVP) is not enough to facilitate and establish the lattice basis an exception from the priori art. The many configuration of the vertices dismisses the wonderful properties of their dynamic faces. The elements of these faces found in between regions bounded by the vertices are of great interest for cryptography. When represented as numerical values serves as Mathematical images of the basis distribution. In this case each vector has the potential to generate cryptographically secure number of keys. This follows a rigid rule; deterministic and yet a chaotic arrangement of the lattice vectors represented within a matrix of column and rows (c=>16 and r=>16). 
+
+
 # OBJECTIVE:
 To show that there is a cryptographic approach that fits into the ideal sets of algorithms known to be resistant to
 quantum computing. Lattice basis is just an image of what is already there. A low cost, pervasive and high entropy which hybridizes and increases AES capacity to roughly 10 times. Thereby, mitigates the effects of 
