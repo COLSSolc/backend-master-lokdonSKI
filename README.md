@@ -92,8 +92,8 @@ Digital Data Nucleus Authority (DDnA): These are integration of multi DnAs. This
 
 
 # Infrastructure of LFK
-* Full M5 mechanism
-This method could operate on any DnA proped by any attribute. Note we will demonstrate DnA using password as input. We will also demonstrate volumetric data scheme using the message and any DnA as input for this algorithm. 
+
+•Full M5 mechanism This method could operate on any DnA propped by any attribute. Note we will demonstrate DnA using password as input. We will also demonstrate volumetric data scheme using the message and any DnA as input for this algorithm. 
 
 You can also use message C in place of the password.
 
