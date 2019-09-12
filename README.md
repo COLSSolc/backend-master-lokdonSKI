@@ -5,7 +5,7 @@ Josiah Johnson Umezurike | September 12th 2018
 
 *******************************************************************************************************************************!
 *******************************************************************************************************************************!
-#Forward
+# Forward
 
 This document is a brief description of over 20 years research work. We are not mathematicians. We only want to solve the common problems of the computing world from the practitioner's perspective. We are aware of the havoc quantum computing will bring to the modern cryptography. Consequently, we have prepared ourselves a decade in advance. We have used AES to develop a 2048-Bit AES-hybrid. This is a low-cost, high entropy, end-point to end-point cryptographic system for cloud, mobile and IoT devices (ECSMID). The reference specification is a category of hard NP problems closely related to numbered faces of a lattice basis or matrix. This cryptography shows the properties of both symmetric, asymmetric cryptography or public key infrastructure (PKE, KEM and DS).
 *******************************************************************************************************************************!
