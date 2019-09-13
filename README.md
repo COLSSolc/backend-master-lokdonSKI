@@ -44,7 +44,7 @@ Lets look at it this way: There are many orderly ways to pick out 2 distinct num
 Let n = 10 and k =2
 nPk =  10!/8! = 90
 
-Each 2 distinct numbers (seed) found on the matrix will further generate another 680 digit long numbers. The 680 digit long numbers are now used the the encryption keys. Normally 5 sets are needed at least for the proposed refenrence specification. We will discuss this further in the paper.
+Each of the 2 distinct numbers (seeds) found on the matrix as positions (Pn) will further generate another 680 digit long numbers. The 680 digit long numbers are now used as the encryption keys. Normally 5 sets of 680digit long from Pn=5 are needed; at least for the proposed refenrence specification. We will discuss this further in the paper.
 
 # The Problem:
 If anyone can obtain the factors of the lager number N with d (public key) any message will be decrypted. You should also note that Quantum computing has the potentials to solve the math and/or crack these numbers in a short period of time according to Shor' Algorithm [1]. This is usually known as polynomial time. In that case the RSA math will no longer be a hard problem of a non-deterministic polynomial (NP). Qubit as the stable standard signal states of a quantum algorithm or computher will also render any form of classical cryptography useless.
