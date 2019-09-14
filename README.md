@@ -249,7 +249,9 @@ Well, the answer is actually no - rather than generating fancy fonts, this conve
 
 Although we mentioned ASCII wide-character, the unicode were explored java for those unfamiliar with C++. You can run the ciphertext output on ‘cryptool’ to see how it defies today's analysis of cryptography. 
 
-# At this point, We are able, to show that each instance of message encryption produces distinct ciphertexts. It could be a contextual similarity yet the ciphertext of the smallest character in the message will be different at every iteration. This is against the prediction of cryptographic primitives. However, it is a strength we need to tap into. 
+# At this point, We are able, to show that each instance of message encrypted produces distinct ciphertexts. There could be a contextual similarity for similar words yet the ciphertext of the smallest character in the message will be different for every iteration. This is against the prediction of cryptographic primitives. However, it is a strength we need to tap into because it opens a door for those interested in data system, repository, analytics and indexing for non-entropy entrant. 
+
+This is another area requiring exploratory work and further research. If you are interested in the said area, note that the secret of the encrypted message will remain undisclosed. There is a huge commercial potential in the name of tranparency and visibility for the enterprises. One can only try to draw a conclusion to the possibility of the  ciphertext and meta data relationship. I don't know how this could be done, but there is nothing stronger than a human will. In sum, the area is not within the purview of this paper. You can draw inspiration form Eureka Data Sytem [8].
 
 *******************************************************************************************************************************
 # CONCLUSION:
@@ -276,11 +278,12 @@ https://eprint.iacr.org/2012/533.pdf
 
 [7] https://sites.math.washington.edu/~morrow/336_12/papers/juan.pdf
 
-[8] https://math.oregonstate.edu/home/programs/undergrad/CalculusQuestStudyGuides/vcalc/flux/flux.html
+[8] https://eurekadata.net/index.php/introduction/
 
-[9] https://blog.trailofbits.com/2018/10/22/a-guide-to-post-quantum-cryptography/
+[9] https://math.oregonstate.edu/home/programs/undergrad/CalculusQuestStudyGuides/vcalc/flux/flux.html
 
+[10] https://blog.trailofbits.com/2018/10/22/a-guide-to-post-quantum-cryptography/
 
-[10] https://www.cs.umd.edu/~huqi/MasterThesisR.pdf
+[11] https://www.cs.umd.edu/~huqi/MasterThesisR.pdf
 
-[11] https://en.wikipedia.org/wiki/One-time_pad#cite_note-shannon-3
+[12] https://en.wikipedia.org/wiki/One-time_pad#cite_note-shannon-3
