@@ -47,7 +47,7 @@ nPk =  10!/8! = 90
 Each of these 2 distinct numbers (seeds) found on the matrix as positions (Pn) will further generate another 680digit long numbers. The 680digit long numbers will be used as the encryption keys. Normally 5 sets of 680digit long from Pn=1.+ Pn=2.+..Pn=5 are needed. At least, for the proposed refenrence implementation. We will discuss this further in this paper.
 
 # The Problem:
-If anyone can obtain the factors of the large number N with d (public key) any message will be decrypted. You should also note that Quantum computing has the potentials to solve the math and/or crack these numbers in a short period of time according to Shor' Algorithm [1]. This time to perform the fit is usually said to be in polynomial time. In that case the RSA math will no longer be a hard problem of a non-deterministic polynomial (NP). Qubit as the stable standard signal states of a quantum algorithm or computher. This new facto will also render any form of classical cryptography useless.
+If anyone can obtain the factors of the large number N with d (public key) any message will be decrypted. You should also note that Quantum computing has the potentials to solve the math and/or crack these numbers in a short period of time according to Shor' Algorithm [1]. This time to perform the fit is usually said to be in polynomial time. In that case the RSA math will no longer be a hard problem of a non-deterministic polynomial (NP). Qubit as the stable standard signal states of a quantum algorithm or computher. This new qubit factor will also render any form of classical cryptography useless.
 
 # SOLUTION TO THE PROBLEM:
 
