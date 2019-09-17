@@ -30,7 +30,7 @@ Encrypted data ( c) = msg^e mod N
 
 Decrypted data  (msg) = c^d mod N
 
-AES will suffer a similarly if not the same fate as RSA. The future of quantum computer will certainly vilify it. We don't really have to wait into the future anyway. People are already saving petabytes of data in cloud. These will be disclosed as soon as quantum computer becomes available. 
+AES will suffer a similarly if not the same fate as RSA. The future of quantum computer will certainly vilify it. We don't really have to wait into the future anyway. People are already saving petabytes of data in the cloud. These are going disclosed or exposed regardless the sooner a quantum computer becomes available. 
 
 Symmetric:
 
