@@ -80,7 +80,7 @@ Relying on the above premises we have been able to put together this reference s
       
 The minimum modes for any encryption done is usually 5 or m5 for this system. However, you can encrypt anything (a message etc) from M1 to Mnth. This could be applied in telecommunications, IT, aeronautics, litography, medicine and health, reatil, finance and education.
 
-# Architecture of data
+# Infrastructure of LFK
 It has an elegant, simple and easy to implement approach. Our social mode of interaction on the media had made possible for us to easily figure out what works. Many profile today are comprised of attributes. Therefore, we reduce data into certain groups for seemingly public key implementation.
 
 Digital Nucleus Agregator(DnA): These are attributes that can be converted to encrypted strings for various intermediate representation in the digital space. e.g Name, SS#, eFri, DOB, PIN, Address, password Gender, Driver license# etc. It could be anything of your choosing. Profiles rely on DnA as their building blocks for intermediate representation in this reference.
@@ -89,7 +89,7 @@ DnA are derived from profiles attributes as we will demonstrate later.
 Digital Data Nucleus Authority (DDnA): These are integration of multi DnAs. This could be held locally or externally in a data base or function-running code platform such as lambda in aws cloud. The architecture creates a bank as good as a phone book. This where all the intermediate representation could be found in encrypt forms followng homomorphinencoding or encyption algorithms.  
 
 
-# Infrastructure of LFK
+# Architecture of data
 
 •Full M5 mechanism This method could operate on any DnA propped by any attribute. Note we will demonstrate DnA using password as input. We will also demonstrate volumetric data scheme using the message and any DnA as input for this algorithm. 
 
