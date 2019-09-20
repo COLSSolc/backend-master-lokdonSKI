@@ -107,7 +107,7 @@ When an offset is added to the length of the encrypted message C or CT (cipherte
 
 "Perfect secrecy is a strong notion of cryptanalytic difficulty".
 
-Also note that in as much as the keys are seeded and generated. The dynamic distribution scheme of the keys make certain; no expended key will be generated from the faces of the lattice position (Pn) or the matrix. And neither will the generated keys be used be used again. Every 680 long key is used just once. Let’s explore volumetric data scheme in this algorithm. We are or-ing the message with the modular PIN (MPIN). A PIN is naturally 4-6 digits numbers. In this reference two characters represent each of the PIN numbers making the overal characters 2 * PIN.
+Also note that in as much as the keys are seeded and generated. The dynamic distribution scheme of the keys make certain; no expended key will be generated from the faces of the lattice position (Pn) or the matrix. And neither will the generated keys be used be used again. Every 680 long key is used just once. Let’s explore volumetric data scheme in this algorithm. We are or-ing the message with the modular PIN (MPIN). A PIN is naturally 4-6 digits numbers. In this reference two characters represent each of the PIN numbers making the overall string (characters) length 2 * PIN.
  
 Data + mpin encrypt = CT1 --> M1 encrypt -->[ciphertext1]^[mpinm3 encrypt]^[Pktn]^[P mpinktn] -- >   M1
 
