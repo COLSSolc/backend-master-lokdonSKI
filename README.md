@@ -64,6 +64,8 @@ We thought of n = infinity for the Galois field equation which was based on Eucl
 
 # "A quantum turing machine with qubits orientation cannot resolve with certainty the position of a legal open knight tour (OKT) of lattice basis if the column (c) and the row (r) of the matix are repectively of c=>16 and r=>16. If the position (Pn) that generates any set of cyrptographically secure keys is unknown. If any set of keys generated from the matrix positions (Pn) follow n! where n=>256 is unkown. If comparing any two positions (P1) to (P2) on the lattice does not sniff out similar 680 digit long keys. Giving any input, it is said that the decision is impossible. Else, this is probably the hardest NP problem and will not happen in poly-time."
 
+![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/npcomplete.png)
+
 Relying on the above premises we have been able to put together this reference specification of an algorithm that combines symmetric and asymmetric cryptography using ZERO KNOWLEDGE triangle flow and homomorphic encryption, standing strong enough to resist attacks from quantum computing. - Lattice-Face Key Infrastructure (LFKI)-- It recognizes and applies:
 
  a) public key encryption - 2048 bits AES-hybrid is used for encryption in wraps or modes
