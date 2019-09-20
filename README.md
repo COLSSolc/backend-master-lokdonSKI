@@ -52,7 +52,7 @@ In the wake of these problems are many proposasl for the direction of modern cry
 
 A lattice is a set of all integral linear combinations of a given set of linearly independent points in Z^n. For a basis B={b1,...,bd} we denote the lattice it generates by L(B) ={d∑i=1; xibi|xi∈Z}. Its rank is d, and the lattice is said to be of full rank if d=n. We identify the basis {b1,...,bd} with the n×d matrix containing b1,...,bd as columns, which enables us to write the shorter L(B) ={Bx|x∈Zd}. We use both the terms lattice point and lattice vector for elements of a lattice [2].
 
-We will spend more time to introduce a new thought or insight to the understanding of the shortest vector problem (SVP) path. While it is generally a consideration for being a NP complete hard problem [3]. Randomization reduction is not enough to establish this as a case of NP Complete hard problem [AKS]. Not one good enough for quantum resistant encryption. If a lattice basis must be retained; it must be an interesting one with some elegant properties that could be reduced to non-deterministic and deterministic biases. The intention is not to be overly critical. There is a need to be proactive. One’s intent will be to find the right solution out of many; not to accept a solution that is not ripe. This is neither to wait for a solution to present itself. A potent lattice and its image must be dynamic with no rigid rule, yet precise with probabilistic basis of transformation with respect to the input and output. -- The image of the lattice basis is a bounded matrix of interest.
+We will spend more time to introduce a new thought or insight to the understanding of the shortest vector problem (SVP) path. While it is generally a consideration for being a NP complete hard problem [3]. Randomization reduction is not enough to establish this as a case of NP Complete hard problem [AKS]. Not one good enough for quantum resistant encryption. If a lattice basis must be retained; it must be an interesting one with some elegant properties that could be reduced to randomized, non-deterministic and deterministic biases. The intention is not to be overly critical. There is a need to be proactive. One’s intent will be to find the right solution out of many; not to accept a solution that is not ripe. This is neither to wait for a solution to present itself. A potent lattice or ideal lattice and its image must be dynamic, with certain rigid rules, yet precise decision making. It must possess a distribution of probabilistic basis transformation with respect to the input and output (references are made to homomorphic encryption). -- The image of the lattice basis is a bounded matrix of interest.
 
 # Specification
 
@@ -180,16 +180,16 @@ All are totaled at 256 bytes (2048 bits)
 
 1. GF 2^p where p =< 8; -> GF 2^p, where p !<8 && p > 8 || 00 (or goes to infinity).
 
-2. Non-Deterministic reduction insinuating that hard problem arises from 16 * 16 matrix e.g We embodied KT as a hard (NP-Complete) problem with other complexities and biases to derive ciphertext from cryptographic engine. It is also noted that this very system does not originates lattice base cryptography but shades light on the form.
+2. Non-Deterministic polynomial reduction insinuates that a hard problem arises from 16 * 16 matrix e.g It is possible to easily embed OKT as a hard (NP-Complete) problem with other complexities and biases to derive ciphertext from cryptographic engine. It is also noted that this very system does not originate lattice base cryptography but shades light on the form.
 
-3. Knight's tour (KT) could NOT be solved in polynomial time within unbounded field. A matrix of scope is of bounded field that could hold solutions of KT just like the elements of lattice vertices. The changing nature of the nodes owing to the decision needed to advance to another element happend as a deterministic reduction. There is also a randomized reduction of seeding the key generation. The bigger the scope the more time it will take to negotiate and decide a fitting node just like in neural networks. WIth this in view balancing symmetric stream of block (key) significant size, encryption time and implementation could yield cryptography of the future.
+3. Open Knight's tour (OKT) could not be solved in polynomial time within unbounded field. A matrix of scope (n x n 16=<n) is of bounded field. The matrix could hold solutions of OKT just like the elements of lattice vertices. The changing nature of the nodes owing to the decision needed to advance to another element happens as a deterministic reduction. There is also a randomized reduction of seeding the key generation. The bigger the scope the more time it will take to negotiate and decide a fitting node just like in neural networks. With this in view balancing symmetric stream of significant block (key) size, encryption time and implementation could yield cryptography of the future.
 
 4. Similarly, AES exhibits the characteristics observed by the movement of the values held in the indices of GF of scope 16 * 16 matrix or lattice basis. Each knight' tour opens at 0 position by tracing a clean sweep the elements of the matrix and closes at another position 255. Therefore, the new approach reflects:
 a. Sub bytes
 b. Addroundkeys
 c. shiftrow
 d. mixcolumns
-Using a mapping scheme of ST to KT and multi-mode-wrapping to achieve the afore mentioned mechanism. Irreducible polynomial is no longer a question of symmetric cryptography. No key schedule or register. You can equally draw an analogy of 3-D space e.g a cube. A cube has faces (6), edges (12) and vertices (8). We are using the faces here: They have the largest number of vectors vis-a-vis largest flux. 			                                     
+Using a mapping scheme of standard state (ST) to open knights tour (OKT) and multi-mode-wrapping to achieve the afore mentioned mechanism. Irreducible polynomial is no longer a question of symmetric cryptography. No key schedule or register. You can equally draw an analogy of 3-D space e.g a cube. A cube has faces (6), edges (12) and vertices (8). We are using the faces here: They have the largest number of vectors vis-a-vis largest flux [CG09]. 			                                     
 									   	     
 5. Cipher keys (P) are no longer saved as they are generated from any position on the matrix (lattice face) upon request by NP. Each position has a different set of numbers to be generated. 5 sets of (680 long digits) from 5 different positions are chosen from the matrix of 16*16 (256 bytes or 2048 bits). Attributes are chosen prior to be arranged into n=5 different modes of encrypt for each attribute or payload fed into mode one all the way to mode five (m1-m5).							     
 										     
@@ -259,6 +259,8 @@ One might not fully understand all the possibilities in the proposition of the a
 *******************************************************************************************************************************
 # REFERENCES
 
+[AJI04] Miklos Ajtai. Generating hard instances of lattice problems. Quaderni di Matematica, 13:1–32,2004. Preliminary version in STOC 1996.
+
 [1] Shor, P.W. "Algorithms for quantum computation: discrete logarithms and factoring". Proceedings 35th Annual Symposium on Foundations of Computer Science. IEEE Comput. Soc. Press. doi:10.1109/sfcs.1994.365700. ISBN 0818665807
 
 [AKS] M. Ajtai, R. Kumar, and D. Sivakumar,A Sieve Algorithm for the Shortest Vector Problem, Proc.33rd Symp. Theory of Computing (STOC), pp. 601–610, 2001
@@ -274,9 +276,13 @@ https://eprint.iacr.org/2012/533.pdf
 
 [6] Shannon, Claude (1949). "Communication Theory of Secrecy Systems". Bell System Technical Journal. 28 (4): 656–715. doi:10.1002/j.1538-7305.1949.tb00928.x. hdl:10338.dmlcz/119717.
 
+[CS71] Cook, Stephen (1971). "The complexity of theorem proving procedures". Proceedings of the Third Annual ACM Symposium on Theory of Computing. pp. 151–158. doi:10.1145/800157.805047
+
 [7] https://sites.math.washington.edu/~morrow/336_12/papers/juan.pdf
 
 [8] https://eurekadata.net/index.php/introduction/
+
+[GC09] Gentry, C.: Fully homomorphic encryption using ideal lattices. In: Proceedings of the 41st ACM Symposium on Theory of Computing – STOC 2009, pp. 169–178. ACM, New York (2009)
 
 [9] https://math.oregonstate.edu/home/programs/undergrad/CalculusQuestStudyGuides/vcalc/flux/flux.html
 
