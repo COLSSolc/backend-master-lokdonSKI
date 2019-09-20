@@ -103,11 +103,11 @@ CT3 + silent password = CT4 --> M4 encrypt --- [ciphertext4]^[P spktn][P ktn ]  
 
 CT4 + silent password = CT5 --> M5 encrypt --- [ciphertext5]^[P spktn][P ktn ]                      M5
 
-When an offset is added to the length of the encrypted message C or CT (ciphertext). That no longer represents the length of the message. Rather a periodic random key k is used to match the length of the message. This does not void the condition of the classical stream cipher requirements: The plaintext and ciphertext are one to one function share similar length as the key size. The introduction the dissolution by (silent password as used randomly in this reference). This increases the entropy of key length bearing a perfect secrecy [6]. Especially the one-time pad scenario cannot outlive the philosophy:
+When an offset is added to the length of the encrypted message C or CT (ciphertext). That no longer represents the length of the message. Rather a periodic random key k is used to match the length of the message. This does not void the condition of the classical stream cipher requirements: Superficially, each byte of the plaintext and ciphertext are one to one function (bijecture) since both share similar length as the key size. However, a detailed observation proves a distribution that shows n numbers of ciphertext for any plaintext. There is an introduction of randomization by using some random string (silent password (SL) as used randomly in this reference). This increases the entropy of key length bearing a perfect secrecy [6]. Especially the one-time pad scenario cannot outlive the philosophy:
 
 "Perfect secrecy is a strong notion of cryptanalytic difficulty".
 
-Also note that in as much as the key remains dynamic; no expended key will be generated from the faces of the lattice position (Pn) of the matrix. And neither will they be used again. Every 680 long key is used just once. Let’s explore volumetric data scheme in this algorithm. We are or-ing the message with the modular PIN (MPIN). A PIN is naturally 4-6 digits numbers. In this reference two characters represent each of the PIN numbers making the overal characters 2 * PIN.
+Also note that in as much as the keys are seeded and generated. The dynamic distribution scheme of the keys make certain; no expended key will be generated from the faces of the lattice position (Pn) or the matrix. And neither will the generated keys be used be used again. Every 680 long key is used just once. Let’s explore volumetric data scheme in this algorithm. We are or-ing the message with the modular PIN (MPIN). A PIN is naturally 4-6 digits numbers. In this reference two characters represent each of the PIN numbers making the overal characters 2 * PIN.
  
 Data + mpin encrypt = CT1 --> M1 encrypt -->[ciphertext1]^[mpinm3 encrypt]^[Pktn]^[P mpinktn] -- >   M1
 
@@ -200,6 +200,8 @@ Using a mapping scheme of ST to KT and multi-mode-wrapping to achieve the afore 
 8. The complexity is O(n=message.length)
 
 9. KEM, Digital signature and seeming public key encryption is built within the algorthm from the scratch. The mixes of attributes e.g MPIN, eFRI, Address and Password can bring about a God mode permision for IAM operations in all kinds of enviroments with respect to business logic reflected.
+
+10.	Plain text to cipher text relationship is 1:n number of ciphertexts: This is necessary to establish HE.
 
 ASSUMPTIONS:									     		
 1. Modern primitives of cryptography only recognizes 2S or 2 stable standard signal state. e.g 0/1  
