@@ -143,9 +143,13 @@ To Prove:
 				 								           ]
 													   
 It is noted that in a deterministic Turing machine the answer is in affirmative for all inputs following the algorithm. You have the graph and the path to trace. This is quite analogous to the knight on a standard chase board. This same analogy is akin to non-deterministic mechanism given any input for decision of Y (black) or N (white). In this is more like a black dot or white square.
-Follow a certain strict rule which compels the knight or the input to touch on one of two (2) nodes if at the vertex (corner); four (4) nodes if on the edges and eight (8) nodes if at the middle of the board. It will trace the path to the nearest node no backtrack is allowed. This solution could go in a loop within a changing or expanding bases.
-Knight path from any corner of n x n graph will have 2n nodes of connection.
-	The assumed position (Pn) on the corner is not counted as the first move such that no move is considered initial position n=0. This means that the number of nodal at any at any path decision is 2n where 0=<n=< 3.
+
+Following a certain strict rule which compels the knight or the input to touch on one of two (2) nodes if at the vertex (corner); four (4) nodes if on the edges and eight (8) nodes if at the middle of the board. It will trace the path to the nearest node no backtrack is allowed. This solution could go in a loop within a changing or expanding bases.
+
+Open knight path traced from any corner of n x n graph will have 2n nodes of connection for 3 moves at the most. This is counted from n=0 position (Initial point) where n=0 is not really a move.
+
+1.	The assumed position (Pn) on the corner is not counted as the first move such that no move is considered for initial position n=0. This means that the number of nodal connections at any chosen path will have 2n nodes; where 0=<n=<3. Only one node will be activated to move on to the next point of decision in the point. This is how the numbers are generated.
+	
 End of proof:
 The open knight tours satisfy the condition of 3DM where in, a response of true (Y) or false (N) is entered to satisfy that only one element of the triplets could the held in T.  If the path found for the legal knight is correct the clause must be black dot else white square. The path of a legal move, is a certificate which the machine must verify by counting black as a YES or white square as a NO. This method does not need to worry about garbage collection in the circuit.
 
