@@ -85,7 +85,7 @@ A quantum Turing-machine with qubits orientation cannot sniff with certainty the
 
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/COMPUTING_diff.png)
 [
-					                          Computuatonal difficulty Fig.2.0
+					             Computuatonal difficulty Fig.2.0
 												          ]
 													  
 P ≠ NP and no one is sure of P = NP as it is not polynomial resolvable as earlier explained. In corollary, one can find a common NP-Hard problem which allows similar inputs as the OKT. In that case lattice basis are best suited for this reduction. Let X represent a lattice with regular point(s) in Euclidean space. 
@@ -116,7 +116,7 @@ To Prove:
 
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/3DM_PROVE.png)
 [
-						  Three DimensionAL matching on OKT Fig. 3.0 
+				Three DimensionAL matching on OKT Fig. 3.0 
 				 								           ]
 													   
 It is noted that in a deterministic Turing machine the answer is in affirmative for all inputs following the algorithm. You have the graph and the path to trace. This is quite analogous to the knight on a standard chase board. This same analogy is akin to non-deterministic mechanism given any input for decision of Y (black) or N (white). In this is more like a black dot or white square.
