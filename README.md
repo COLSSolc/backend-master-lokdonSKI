@@ -154,7 +154,7 @@ End of proof:
 The open knight tours satisfy the condition of 3DM where in, a response of true (Y) or false (N) is entered to satisfy that only one element of the triplets could the held in T.  If the path found for the legal knight is correct the clause must be black dot else white square. The path of a legal move, is a certificate which the machine must verify by counting black as a YES or white square as a NO. This method does not need to worry about garbage collection in the circuit.
 
 
-Relying on the above claims and premises we have been able to put together this reference specification of an algorithm that combines symmetric and asymmetric cryptography using zero knowledge triangle flow and homomorphic encryption, standing strong enough to resist attacks from quantum computing. - Lattice-Face Key Infrastructure (LFKI)-- It recognizes and applies:
+Relying on the above claims and premises we submit this reference specification of an algorithm that combines symmetric and asymmetric cryptography using zero knowledge triangle flow and homomorphic encryption, standing strong enough to resist attacks from quantum computing. - Lattice-Face Key Infrastructure (LFKI)-- It recognizes and applies:
 
  a) public key encryption - 2048 bits AES-hybrid is used for encryption in wraps or modes
  
