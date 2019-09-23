@@ -1,3 +1,19 @@
+# Abstract
+# Introduction/Forward
+# Objective
+# An overview of current cryptography
+-Asymmetric
+-Symmetric
+# The problem
+# The solution
+# Technical Specification
+-Infrastructure of LFK
+-Architecture
+# Advantages (NEW APPROACH or AXIOMS)
+# Basic anaylysis of QC & LFKI
+# Conclusion
+# Reference
+
 # Lattice-Face Key Infrastructure (LFKI) for Quantum Resistant Computing
 LokDon security research project:
 Josiah Johnson Umezurike | September 12th 2018
