@@ -75,7 +75,7 @@ Note: The point closest to the chosen vector in SVP is orthogonal to all other p
 
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/lattice_basis_demo.png)
 [
-								  Lattice base and matrix mix Fig. 1.0
+								 Lattice base and matrix mix Fig. 1.0
 					                                                                  ]
 													  
 A quantum Turing-machine with qubits orientation cannot sniff with certainty the positions of any legal open knight tour (OKT) on lattice face if the column (c) and the row (r) of the matrix are respectively of c=>16 and r=>16. If the position (Pn) that generates any set of cryptographically secure keys is unknown. If any set of keys generated from the matrix positions (Pn) follow n! where n=>256 is unknown. If comparing any two positions (P1) to (P2) on the lattice does not sniff out similar 680-digit long keys. Giving any input, it is said that the decision is impossible. Else, this is probably the hardest NP problem and will not resolve in polynomial-time. 
@@ -110,7 +110,7 @@ To Prove:
 Ș ≤p Y (If we could solve Ș we could solve Y).
 
 
-![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/3DM_PROVE.png
+![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/3DM_PROVE.png)
 [
 						  Three DimensionAL matching on OKT Fig. 3.0 
 				 								           ]
