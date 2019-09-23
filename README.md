@@ -82,8 +82,42 @@ A quantum Turing-machine with qubits orientation cannot sniff with certainty the
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/COMPUTING_diff.png)
 					Fig. 2.0
 
+P ≠ NP and no one is sure of P = NP as it is not polynomial resolvable as earlier explained. In corollary, one can find a common NP-Hard problem which allows similar inputs as the OKT. In that case lattice basis are best suited for this reduction. Let X represent a lattice with regular point(s) in Euclidean space. 
+It is agreed on equal footing that Hamiltonian path and open knight tour (OKT) are NP Complete [GJ79].
+It is also a common knowledge that the Shortest Vector Problem (SVP) of a lattice-based cryptography is an NP-Hard problem. See Ajtai works for details. We will only try to reduce the hard problem to NP to prove that OKT is equally a hard problem. 
+To prove that OKT is a hard NP problem: We only need to re-state the theorems. We will follow these steps:
+	We deduce that X Ꞓ NP
+This could be done in (i) or (ii)
+	Polynomial time algorithm
+	Certificate and verifiers
+	Reduce from known NP to the problem Y to X.
+	If Y Ꞓ P the X Ꞓ P
+	If Y Ꞓ NP then X Ꞓ NP
+X not in P unless P = NP
+X is NP Complete if X Ꞓ NP & X is NP-Hard.
+X is NP-Hard if every problem Y Ꞓ NP reduced to X
+In this case inputs for X and Y are the same e.g coordinates, Vp or Pn. There will be no polynomial time algorithm for this proof. There is still a known problem 3DM (Ș) that is NP-Hard. If we can fit this problem into Y, then Y too is NP-Hard.
+Proof: Y is NP-Hard
+Given: 3D matching (variable gadget). Disjoint set x, y, z each size n given triples T ⊆ x *y*z. 
+Is there a subset S⊆ T  such that every element, Ꞓx ∪ y ∪ z is in exactly one, s Ꞓ S Following a legal knight move OKT could only be on black dot (Y) or white square (N) at once? 
+Method: Reduction of X to Y.
+Three-dimensional matching (3DM) is NP Complete (Theorem). It is going to be a graphical prove. To make this easy, we set up an 8 by 8 matrix of black dots and white squares see the Fig 1.0 [C]. Let X represent the lattice basis (SVP) and Y represent OKT. Lattice basis (SVP) had been reduced to NP-Hard problem earlier [LLL82] [4]. Other precedence, 3-SAT was reduced to 3DM [GJ79].
+To Prove:
+Ș ≤p Y (If we could solve Ș we could solve Y).
 
-Relying on the above premises we have been able to put together this reference specification of an algorithm that combines symmetric and asymmetric cryptography using ZERO KNOWLEDGE triangle flow and homomorphic encryption, standing strong enough to resist attacks from quantum computing. - Lattice-Face Key Infrastructure (LFKI)-- It recognizes and applies:
+![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/3DM_PROVE.png)
+
+		                       Fig. 3.0 3DM on OKT
+				 
+It is noted that in a deterministic Turing machine the answer is in affirmative for all inputs following the algorithm. You have the graph and the path to trace. This is quite analogous to the knight on a standard chase board. This same analogy is akin to non-deterministic mechanism given any input for decision of Y (black) or N (white). In this is more like a black dot or white square.
+Follow a certain strict rule which compels the knight or the input to touch on one of two (2) nodes if at the vertex (corner); four (4) nodes if on the edges and eight (8) nodes if at the middle of the board. It will trace the path to the nearest node no backtrack is allowed. This solution could go in a loop within a changing or expanding bases.
+Knight path from any corner of n x n graph will have 2n nodes of connection.
+	The assumed position (Pn) on the corner is not counted as the first move such that no move is considered initial position n=0. This means that the number of nodal at any at any path decision is 2n where 0=<n=< 3.
+End of proof:
+The open knight tours satisfy the condition of 3DM where in, a response of true (Y) or false (N) is entered to satisfy that only one element of the triplets could the held in T.  If the path found for the legal knight is correct the clause must be black dot else white square. The path of a legal move, is a certificate which the machine must verify by counting black as a YES or white square as a NO. This method does not need to worry about garbage collection in the circuit.
+
+
+Relying on the above claims and premises we have been able to put together this reference specification of an algorithm that combines symmetric and asymmetric cryptography using zero knowledge triangle flow and homomorphic encryption, standing strong enough to resist attacks from quantum computing. - Lattice-Face Key Infrastructure (LFKI)-- It recognizes and applies:
 
  a) public key encryption - 2048 bits AES-hybrid is used for encryption in wraps or modes
  
