@@ -54,10 +54,12 @@ A lattice is a set of all integral linear combinations of a given set of linearl
 
 We will spend more time to introduce a new thought or insight to the understanding of the shortest vector problem (SVP) path. While it is generally a consideration for being a NP complete hard problem [3]. Randomization reduction is not enough to establish this as a case of NP Complete hard problem [AKS]. Not one good enough for quantum resistant encryption. If a lattice basis must be retained; it must be an interesting one with some elegant properties that could be reduced to randomized, non-deterministic and deterministic biases. The intention is not to be overly critical. There is a need to be proactive. One’s intent will be to find the right solution out of many; not to accept a solution that is not ripe. This is neither to wait for a solution to present itself. A potent lattice or ideal lattice and its image must be dynamic, with certain rigid rules, yet precise decision making. It must possess a distribution of probabilistic basis transformation with respect to the input and output (references are made to homomorphic encryption). -- The image of the lattice basis is a bounded matrix of interest.
 
-# Specification
+# Technical Specification
 
 To solve this problem from a technical perspective. It is imperative to draw an analogy from 3D shapes and their properties: Especially surface area (face) with breadth. A cuboid and other favorable dimensions of lattice basis will suffice for this development. Their properties like face, edges and vertices come in handy in unbounded and bounded space. You can get a flux from these properties as a result of vectors forming regular point in Euclidean space to enhance orientation as seen in lattice basis. In programmatical (code) terms, the idea of a matrix translation, transposition, transformation and substitution serves us well by forming an algorithm that covers lattice face key infrastructure and architecture. The face of lattice is commonly known to have points or vectors. Same goes to a matrix which is a quantitative representation of the lattice following certain strict rules. Therefore,
 Total flux = ∫∫ f.n. dS [where n=1]. 
+For our purpose the vector accent will not be needed. As scalar and vector delineation blurs in this region of SVP.
+ 
 
 It means that any normal face in a shape will have a regular arrangement of point in Euclidean space (lattice). In this sense, following the elements of Galois' field; a matrix, mathematically can hold a lattice's contents: It is then noted that a lattice is only a form which can be reflected or translated. It will have points upon which forces can interact with it. This means that changes in choosing any of these points could change the matrix or the indices they bear. Below is the explanation of informational entropy.
 
@@ -70,7 +72,7 @@ In cryptography this means that those points can represent encryption and decryp
 
 The proposed algorithm comes with a powerful wrapping mechanism. That’s what makes it possible to be used as an exchange channel in the order of PKI public and private key. However, the school of thought defers from the popular opinion of Shortest Vector Problem (SVP) associated with the current lattice basis solution for cryptography. It is deduced from the research that open knight tour on a lattice face is a harder NP problem than the notion of SVP [5]. It cannot be solved by a quantum computer as long as the matrix is equal and greater than 16 for the columns as well as the rows: Given a matrix in column major (c,r), where a full rank is n x d. let n = d. It follows that { c>=16=<r }.
 
-Note: The point closest to the chosen vector in SVP is orthogonal to all other points of interest. Finding the shortest path is the reason why this problem is of interest to cryptographers. This can never be deducted with certainty needed for integer mathematics. In lattice ‘A’ the periodicity is very clear more so, all points sought to determine the shortest vector path are orthogonal.  Now, look very closely at lattice ‘B’. The periodicity is also clear as the denoted impression in A. Although the bases are replaced by numbers just like a matrix would have within. When the numbers or the lattice bases are rearranged. A measure of difficulty arises in a way the problem becomes harder. The path to finding the shortest vector is no longer a linear one. Or is it? By Pythagoras it still is.
+Note: The point closest to the chosen vector in SVP is orthogonal to all other points of interest. Finding the shortest path is the reason why this problem is of interest to cryptographers. This can never be deducted with certainty needed for integer mathematics. In lattice diagram ‘A’ fig. 1.0 the periodicity is very clear more so, all points sought to determine the shortest vector path are orthogonal.  Now, look very closely at lattice diagram ‘B’ fig. 2.0 The periodicity is also clear as the denoted impression in ‘A’. Although the bases are replaced by numbers just like a matrix would have within. When the numbers or the lattice bases are rearranged. A measure of difficulty arises in a way the problem becomes harder. The path to finding the shortest vector is no longer a linear one. Or is it? By Pythagoras it still is.
 
 
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/lattice_basis_demo.png)
@@ -89,18 +91,20 @@ A quantum Turing-machine with qubits orientation cannot sniff with certainty the
 P ≠ NP and no one is sure of P = NP as it is not polynomial resolvable as earlier explained. In corollary, one can find a common NP-Hard problem which allows similar inputs as the OKT. In that case lattice basis are best suited for this reduction. Let X represent a lattice with regular point(s) in Euclidean space. 
 It is agreed on equal footing that Hamiltonian path and open knight tour (OKT) are NP Complete [GJ79].
 It is also a common knowledge that the Shortest Vector Problem (SVP) of a lattice-based cryptography is an NP-Hard problem. See Ajtai works for details. We will only try to reduce the hard problem to NP to prove that OKT is equally a hard problem. 
+
 To prove that OKT is a hard NP problem: We only need to re-state the theorems. We will follow these steps:
-	We deduce that X Ꞓ NP
+1)	We deduce that X Ꞓ NP
 This could be done in (i) or (ii)
-	Polynomial time algorithm
-	Certificate and verifiers
-	Reduce from known NP to the problem Y to X.
-	If Y Ꞓ P the X Ꞓ P
-	If Y Ꞓ NP then X Ꞓ NP
+i)	Polynomial time algorithm
+ii)	Certificate and verifiers
+2)	Reduce from known NP to the problem Y to X.
+i.	If Y Ꞓ P the X Ꞓ P
+ii.	If Y Ꞓ NP then X Ꞓ NP
 X not in P unless P = NP
 X is NP Complete if X Ꞓ NP & X is NP-Hard.
 X is NP-Hard if every problem Y Ꞓ NP reduced to X
 In this case inputs for X and Y are the same e.g coordinates, Vp or Pn. There will be no polynomial time algorithm for this proof. There is still a known problem 3DM (Ș) that is NP-Hard. If we can fit this problem into Y, then Y too is NP-Hard.
+
 Proof: Y is NP-Hard
 Given: 3D matching (variable gadget). Disjoint set x, y, z each size n given triples T ⊆ x *y*z. 
 Is there a subset S⊆ T  such that every element, Ꞓx ∪ y ∪ z is in exactly one, s Ꞓ S Following a legal knight move OKT could only be on black dot (Y) or white square (N) at once? 
