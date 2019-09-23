@@ -72,17 +72,17 @@ The proposed algorithm comes with a powerful wrapping mechanism. That’s what m
 
 Note: The point closest to the chosen vector in SVP is orthogonal to all other points of interest. Finding the shortest path is the reason why this problem is of interest to cryptographers. This can never be deducted with certainty needed for integer mathematics. In lattice ‘A’ the periodicity is very clear more so, all points sought to determine the shortest vector path are orthogonal.  Now, look very closely at lattice ‘B’. The periodicity is also clear as the denoted impression in A. Although the bases are replaced by numbers just like a matrix would have within. When the numbers or the lattice bases are rearranged. A measure of difficulty arises in a way the problem becomes harder. The path to finding the shortest vector is no longer a linear one. Or is it? By Pythagoras it still is.
 
-[
-![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/lattice_basis_demo.png)
 
+![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/lattice_basis_demo.png)
+[
 								  Lattice base and matrix mix Fig. 1.0
 					                                                                  ]
 													  
 A quantum Turing-machine with qubits orientation cannot sniff with certainty the positions of any legal open knight tour (OKT) on lattice face if the column (c) and the row (r) of the matrix are respectively of c=>16 and r=>16. If the position (Pn) that generates any set of cryptographically secure keys is unknown. If any set of keys generated from the matrix positions (Pn) follow n! where n=>256 is unknown. If comparing any two positions (P1) to (P2) on the lattice does not sniff out similar 680-digit long keys. Giving any input, it is said that the decision is impossible. Else, this is probably the hardest NP problem and will not resolve in polynomial-time. 
 
-[
-![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/COMPUTING_diff.png)
 
+![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/COMPUTING_diff.png)
+[
 					                          Computuatonal difficulty Fig.2.0
 												          ]
 													  
@@ -109,9 +109,9 @@ Three-dimensional matching (3DM) is NP Complete (Theorem). It is going to be a g
 To Prove:
 Ș ≤p Y (If we could solve Ș we could solve Y).
 
-[
-![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/3DM_PROVE.png
 
+![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/3DM_PROVE.png
+[
 						    Three Dimension matching on OKT Fig. 3.0 
 				 								           ]
 													   
