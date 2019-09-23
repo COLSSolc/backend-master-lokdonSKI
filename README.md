@@ -84,9 +84,10 @@ A quantum Turing-machine with qubits orientation cannot sniff with certainty the
 
 
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/COMPUTING_diff.png)
+
 [
-					             Computuatonal difficulty Fig.2.0
-												          ]
+Computuatonal difficulty Fig.2.0
+												        ]
 													  
 P ≠ NP and no one is sure of P = NP as it is not polynomial resolvable as earlier explained. In corollary, one can find a common NP-Hard problem which allows similar inputs as the OKT. In that case lattice basis are best suited for this reduction. Let X represent a lattice with regular point(s) in Euclidean space. 
 It is agreed on equal footing that Hamiltonian path and open knight tour (OKT) are NP Complete [GJ79].
@@ -115,6 +116,7 @@ To Prove:
 
 
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/3DM_PROVE.png)
+
 [
 				Three DimensionAL matching on OKT Fig. 3.0 
 				 								           ]
