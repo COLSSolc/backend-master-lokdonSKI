@@ -4,11 +4,13 @@ Josiah Johnson Umezurike | September 12th 2018
 
 
 *******************************************************************************************************************************!
-*******************************************************************************************************************************!
 # Forward
+*******************************************************************************************************************************!
+
 
 This article is an observation from over 20 years research work. We are not mathematicians. The sole intent is to solve the common problem of our time from practitioner’ perspective. It is agreed on all ground the havoc quantum computing will bring to the modern cryptography. Consequently, it is sufficiently relevant to be prepared pre and post quantum. The understanding of Euler, Hamiltonian cycle and lattice basis paved the way in drawing the relationship needed to harmonize the open knight tours (OKT) in the genre of Hamilton’ path. The similarities under study shows the pervasiveness of Hamilton’s path in grid (n x n) formation. In absence of any back track; It does enumerate all points in Euclidean space if and only if n=>5. Hamilton’ cycle, when applied to grid or chessboard, it clearly proves that it is indeed a hard NP as the grid become richly connected. When this exercise extended to the operation of AES (Rijndael) which commonly lies on 4 x 8 grid. It is possible to  expand the scope of AES to develop a 2048-Bit AES-hybrid using the bounded region between the edges and vertices of lattices. The result is a low-cost, high entropy, endpoint to endpoint cryptographic system for cloud, mobile and IoT devices (ECSMID). The reference specification is a category of hard NP problems closely related to numbered faces of a lattice basis or matrix. This cryptography shows the properties of both symmetric, asymmetric cryptography or public key infrastructure (PKE, KEM and DS).
 *******************************************************************************************************************************!
+# Contents
 *******************************************************************************************************************************!
 
 # Abstract
