@@ -14,7 +14,7 @@ This article is an observation from over 20 years research work. We are not math
 *******************************************************************************************************************************!
 
 # Abstract
-# Introduction/Forward
+# Introduction
 # Objective
 # An overview of current cryptography
 -Asymmetric
