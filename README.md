@@ -71,17 +71,15 @@ In cryptography this means that those points can represent encryption and decryp
 The proposed algorithm comes with a powerful wrapping mechanism. That’s what makes it possible to be used as an exchange channel in the order of PKI public and private key. However, the school of thought defers from the popular opinion of Shortest Vector Problem (SVP) associated with the current lattice basis solution for cryptography. It is deduced from the research that open knight tour on a lattice face is a harder NP problem than the notion of SVP [5]. It cannot be solved by a quantum computer as long as the matrix is equal and greater than 16 for the columns as well as the rows: Given a matrix in column major (c,r), where a full rank is n x d. let n = d. It follows that { c>=16=<r }.
 
 Note: The point closest to the chosen vector in SVP is orthogonal to all other points of interest. Finding the shortest path is the reason why this problem is of interest to cryptographers. This can never be deducted with certainty needed for integer mathematics. In lattice ‘A’ the periodicity is very clear more so, all points sought to determine the shortest vector path are orthogonal.  Now, look very closely at lattice ‘B’. The periodicity is also clear as the denoted impression in A. Although the bases are replaced by numbers just like a matrix would have within. When the numbers or the lattice bases are rearranged. A measure of difficulty arises in a way the problem becomes harder. The path to finding the shortest vector is no longer a linear one. Or is it? By Pythagoras it still is.
-
-
+[
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/lattice_basis_demo.png)
-					Fig. 1.0
-					
+								  Lattice base and matrix mix Fig. 1.0
+					                                                                  ]
 A quantum Turing-machine with qubits orientation cannot sniff with certainty the positions of any legal open knight tour (OKT) on lattice face if the column (c) and the row (r) of the matrix are respectively of c=>16 and r=>16. If the position (Pn) that generates any set of cryptographically secure keys is unknown. If any set of keys generated from the matrix positions (Pn) follow n! where n=>256 is unknown. If comparing any two positions (P1) to (P2) on the lattice does not sniff out similar 680-digit long keys. Giving any input, it is said that the decision is impossible. Else, this is probably the hardest NP problem and will not resolve in polynomial-time. 
-
-
+[
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/COMPUTING_diff.png)
-					Fig. 2.0
-
+					                         Computuatonal difficulty Fig.2.0
+												]
 P ≠ NP and no one is sure of P = NP as it is not polynomial resolvable as earlier explained. In corollary, one can find a common NP-Hard problem which allows similar inputs as the OKT. In that case lattice basis are best suited for this reduction. Let X represent a lattice with regular point(s) in Euclidean space. 
 It is agreed on equal footing that Hamiltonian path and open knight tour (OKT) are NP Complete [GJ79].
 It is also a common knowledge that the Shortest Vector Problem (SVP) of a lattice-based cryptography is an NP-Hard problem. See Ajtai works for details. We will only try to reduce the hard problem to NP to prove that OKT is equally a hard problem. 
@@ -104,11 +102,10 @@ Method: Reduction of X to Y.
 Three-dimensional matching (3DM) is NP Complete (Theorem). It is going to be a graphical prove. To make this easy, we set up an 8 by 8 matrix of black dots and white squares see the Fig 1.0 [C]. Let X represent the lattice basis (SVP) and Y represent OKT. Lattice basis (SVP) had been reduced to NP-Hard problem earlier [LLL82] [4]. Other precedence, 3-SAT was reduced to 3DM [GJ79].
 To Prove:
 Ș ≤p Y (If we could solve Ș we could solve Y).
-
-![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/3DM_PROVE.png)
-
-		                       Fig. 3.0 3DM on OKT
-				 
+[
+![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/3DM_PROVE.png
+							3 Dimension matching on OKT Fig. 3.0 
+				 								]
 It is noted that in a deterministic Turing machine the answer is in affirmative for all inputs following the algorithm. You have the graph and the path to trace. This is quite analogous to the knight on a standard chase board. This same analogy is akin to non-deterministic mechanism given any input for decision of Y (black) or N (white). In this is more like a black dot or white square.
 Follow a certain strict rule which compels the knight or the input to touch on one of two (2) nodes if at the vertex (corner); four (4) nodes if on the edges and eight (8) nodes if at the middle of the board. It will trace the path to the nearest node no backtrack is allowed. This solution could go in a loop within a changing or expanding bases.
 Knight path from any corner of n x n graph will have 2n nodes of connection.
