@@ -226,7 +226,9 @@ Note the replacement of the unstripped m2mpin with m3mpin keys’ position
 in this order the attacker may never be able to go back to M1 if at all they gain access to the network. M3mpin could be used as a digital signature of each user in the network. 
 
 # Simply put->
-	   [   1. The M3PIN or any other mode chosen except for M1 and M5 will serve as the Public key and intermediate 	   representation (IR) for (ZKP)*****
+	   [   1. The M3PIN or any other mode chosen except for M1 and M5 will serve as the Public key and intermediate 
+	   
+	          representation (IR) for (ZKP)*****
 	   
                2. The seeding positions (Pn) serve the purpose of key encapsulation (KEM)***** 
 	       
