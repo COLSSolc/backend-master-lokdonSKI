@@ -1,5 +1,5 @@
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/Howitworks_steps.png)
-<img src="image" width="100%">
+<img src="https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/Howitworks_steps.png" width="100%" height=50%>
 
 # Lattice-Face Key Infrastructure (LFKI) for Quantum Resistant Computing
 LokDon security research project:
