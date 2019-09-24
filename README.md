@@ -150,10 +150,10 @@ Following a certain strict rule which compels the knight or the input to touch o
 
 Open knight path traced from any corner of n x n graph will have 2n nodes of connection for 3 moves at the most. This is counted from n=0 position (Initial point) where n=0 is not really a move.
 
-1.	The assumed position (Pn) on the corner is not counted as the first move such that no move is considered for initial position n=0. This means that the number of nodal connections at any chosen path will have 2n nodes; where 0=<n=<3. Only one node will be activated to move on to the next point of decision in the point. This is how the numbers are generated.
+1.	The assumed position (Pn) on the corner is not counted as the first move such that no move is considered for initial position n=0. This means that the number of nodal connections at any chosen path will have 2n nodes; where 0=<n=<3. Only one node will be activated to move on to the next point of decision in the path. This is how the numbers are generated.
 	
 End of proof:
-The open knight tours satisfy the condition of 3DM where in, a response of true (Y) or false (N) is entered to satisfy that only one element of the triplets could the held in T.  If the path found for the legal knight is correct the clause must be black dot else white square. The path of a legal move, is a certificate which the machine must verify by counting black as a YES or white square as a NO. This method does not need to worry about garbage collection in the circuit.
+The open knight tours satisfy the condition of 3DM where in, a response of true (Y) or false (N) is entered to satisfy that only one element of the triplets that could be held in T.  If the path found for the legal knight is correct the clause must be black dot else white square. The path of a legal move, is a certificate which the machine must verify by counting black as a YES or white square as a NO. This method does not need to worry about garbage collection in the circuit.
 
 
 Relying on the above claims and premises we submit this reference specification of an algorithm that combines symmetric and asymmetric cryptography using zero knowledge triangle flow and homomorphic encryption, standing strong enough to resist attacks from quantum computing. - Lattice-Face Key Infrastructure (LFKI)-- It recognizes and applies:
