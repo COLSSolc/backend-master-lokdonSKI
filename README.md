@@ -39,7 +39,7 @@ Some of the papers on lattice basis owe respect to randomization reduction or de
 # OBJECTIVE:
 To show that there is a cryptographic formation following a lattice basis that fits into an ideal set of hard NP complete problems known to be resistant to quantum computing. A matrix  could be seen as a numerical image of a lattice basis. This bring about a low cost, pervasive and high entropy cipher which hybridizes and increases AES capacity to roughly 10 times. Thereby, mitigates the effects of post-quantum breaches.
 
-# An Overview of current cryptopgraphy:
+# An Overview of current cryptography:
 The Frailty of PKI and AES: There are numerous talks about PKI. Ponemon institute, Gartner, IBM and many other reliable and prolific sources had mentioned their worries about the future of PKI as we know it. More so, PKI and AES are the dominant part of the mechanism securing the internet transactions of today. The banks, health, retail, government and all entities use these two technology. 
 
 They are supposed to secure and make private each communication whenever you access any secure website. It is a scientific knowledge that PKI is based on mathematics: Where in, (N = p * q ), Phi(N) = (p-1)*(q-1) where (e, N) is the public keys and (d, N) is the private key. There is a condition e { integer; 1<e<phi(N); & co-primes (sharing no factors) with N & phi(N)}. Choose d such that, { e*d mod phi(N) = 1}:
