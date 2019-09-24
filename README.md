@@ -176,7 +176,7 @@ It has an elegant, simple and easy to implement approach. Our social mode of int
 Digital Nucleus Agregator(DnA): These are attributes that can be converted to encrypted strings for various intermediate representation in the digital space. e.g Name, SS#, eFri, DOB, PIN, Address, password Gender, Driver license# etc. It could be anything of your choosing. Profiles rely on DnA as their building blocks for intermediate representation in this reference.
 DnA are derived from profiles attributes as we will demonstrate later.
 
-Digital Data Nucleus Authority (DDnA): These are integration of multi DnAs. This could be held locally or externally in a data base or function-running code platform such as lambda in aws cloud. The architecture creates a bank as good as a phone book. This where all the intermediate representation could be found in encrypt forms followng homomorphinencoding or encyption algorithms.  
+Digital Data Nucleus Authority (DDnA): These are integration of multi DnAs. This could be held locally or externally in a data base or function-running code platform such as lambda in aws cloud. The architecture creates a data bank as good as a phone book of today. This is where all the intermediate representation could be found in encrypt forms followng homomorphic encoding or encryption algorithm.  
 
 
 # Architecture of data
