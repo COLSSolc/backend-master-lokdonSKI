@@ -56,7 +56,7 @@ Symmetric:
 
 Let Ct = cipher template length; where the length is the same as the keys used to perform wholistic encryption of the message. The message is added to extended key K of period D which could be an 64 bits passphrase. Note that a modulo arithemetic is used herein. Some find it convenient to use seeds in phone numbers (10-15 digit numbers arranged in a particular order) or pick vector on the matrix which in turn generates 680 digit numbers from each position.  
 
-Encrypted data (c) = (msg, D): (msg or D) mod Ct
+Encrypted data (c) = (msg, D): (msg xor D) mod Ct
 
 Decrypted data (msg) = (c, D): (c xor D) mod Ct
 
