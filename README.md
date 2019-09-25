@@ -184,26 +184,38 @@ Digital Data Nucleus Authority (DDnA): These are integration of multi DnAs. This
 
 # Architecture of data
 
-Now lets revisit the phone number as a seed input: There are many orderly ways to pick out 2 distinct numbers from an arrangement of 10 digits--> 788 890 6754
+Let’s revisit the phone number as a seed input: There are many orderly ways to pick out 2 distinct numbers from an arrangement of 10 digits--> 788 890 6754.
+However, we will first calculate the arrangements with repeats in 788 890 6754. We start with:
 8's
 Let n = 10 and k =3
-nPk =  10!/3! = 604,800
+nPk = 10!/3! = 604,800
 7's 
 let n= 7 and k=2
        7!/2! = 2520
 singletons
 5! = 120
-Distinguished arrangement = 604,800*2520*120 = 182,891,520,000
-The above means that there are 182,891,520,000 ordered ways of arranging 788 890 6754
-								...
+arrangement = 604,800*2520*120 = 182,891,520,000
+The above means that there are 182,891,520,000 ordered ways of arranging 
+						       7888906754
+						       ...
+						       8889067547	
+						       8890675478
+						       8906754788
+						       ,...
+						       9067547888
+						       ...
+Further one can arrange these numbers in twos. If we must arrange these numbers in five sets of twos. It will be another 10!/8! Way or representing the distinguished arrangement = 182,891,520,000*90 =
+16,460,236,800,000‬
+Iff all two digits are distinct.
+						       78 88 90 67 54
+						       ...
 						       88 89 06 75 47	
 						       88 90 67 54 78
 						       89 06 75 47 88
-						       		,...
+						       ,...
 						       90 67 54 78 88
-						                ,...
-If I must arrange these numbers in five sets of two it will be another 5! Iff all two digits are distinct. Distinguished arrangement = 182,891,520,000 *120 = 
-# 21,946,982,400,000
+						       ...
+Each of these numbers could be used as seed for 680 digits long encryption keys: They become offsets and are only made ready when needed.
 
 There is a whole algorithm to address non-repeat of the said digits of numbers and that is not within the paper's purview. Rest assured no number is repeated in the algorithm. Each of these 2 distinct numbers (seeds) from the 10 digit arrangementss are found on the matrix as positions (Pn). They will further generate another 680 digit long numbers following the certain algorithm. The 680 digit long numbers will be used as the encryption keys. Normally 5 sets of 680 digit long from Pn=1.+ Pn=2.+..Pn=5 are needed. At least, for the proposed reference implementation. Each position generates a once in a life time set of 680 digit number. This is actually emphasized in this paper.
 
