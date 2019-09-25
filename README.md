@@ -202,7 +202,7 @@ The above means that there are 182,891,520,000 ordered ways of arranging 788 890
 						       		,...
 						       90 67 54 78 88
 						                ,...
-If I must arrange these numbers in five sets of two it will be another 5! Distinguished arrangement = 182,891,520,000 *120 = 
+If I must arrange these numbers in five sets of two it will be another 5! Iff all two digits are distinct. Distinguished arrangement = 182,891,520,000 *120 = 
 # 21,946,982,400,000
 
 There is a whole algorithm to address non-repeat of the said digits of numbers and that is not within the paper's purview. Rest assured no number is repeated in the algorithm. Each of these 2 distinct numbers (seeds) from the 10 digit arrangementss are found on the matrix as positions (Pn). They will further generate another 680 digit long numbers following the certain algorithm. The 680 digit long numbers will be used as the encryption keys. Normally 5 sets of 680 digit long from Pn=1.+ Pn=2.+..Pn=5 are needed. At least, for the proposed reference implementation. Each position generates a once in a life time set of 680 digit number. This is actually emphasized in this paper.
