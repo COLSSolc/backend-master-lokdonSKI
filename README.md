@@ -54,17 +54,14 @@ AES will suffer a similarly if not the same fate as RSA. The future of quantum c
 
 Symmetric:
 
-Let Ct = cipher template length; where the length is the same as the keys used to perform wholistic encryption of the message. The message is added to extended key K of period D which could be an 64 bits passphrase. Note that a modulo arithemetic is used herein. Some find it convenient to use seeds in phone numbers (10-15 digit numbers arranged in a particular order) or pick vector on the matrix which in turn generates 680 digit numbers from each position.  
+Let Ct = cipher template length; where the length is the same as the keys used to perform wholistic encryption of the message. The message is added to extended key K of period D which could be an 64 bits passphrase or more. Note that a modulo arithemetic is used herein. It is a common knowledge that AES is one form of the family of cryptography. The strength of AES is synomymous to the irreducibility of polynomials of 8th degree. Symmetric key cryptography (SKC) uses a secret key: They are commonly known as passwords or passphrases and individually driven. It is interesting to note that the key used to perform the actual encryption in AES sometimes are derived from the password via a key derivation mechanism reduced to Pseudo Random Number Generation by generators (PRNG). The block sizes of AES are defined ( 128bits, 192bits and 256bits). These and many other reasons add to their weaknesses before quantum computing. PRNG will generate AES keys of 16, 24 and 32 bytes to match the block sizes respectively. If the message doesn't fit the block it is the padded with IV so that it will fit the given block.
+
+ECSMID proposes the use of seeds in social security numbers, drivers license number and phone numbers. It is recommended to use 10-15+ digit numbers arranged in a particular order or pick vectors on the matrix which in turn generates 680 digit numbers from each position. We will talk more about this on another paper.
 
 Encrypted data (c) = (msg, D): (msg xor D) mod Ct
 
 Decrypted data (msg) = (c, D): (c xor D) mod Ct
 
-Lets look at it this way: There are many orderly ways to pick out 2 distinct numbers from this arrangement of 10 digits--> 788 890 6754
-Let n = 10 and k =2
-nPk =  10!/8! = 90
-
-Each of these 2 distinct numbers (seeds) found on the matrix as positions (Pn) will further generate another 680digit long numbers. The 680digit long numbers will be used as the encryption keys. Normally 5 sets of 680digit long from Pn=1.+ Pn=2.+..Pn=5 are needed. At least, for the proposed refenrence implementation. We will discuss this further in this paper.
 
 # The Problem:
 
@@ -186,6 +183,29 @@ Digital Data Nucleus Authority (DDnA): These are integration of multi DnAs. This
 
 
 # Architecture of data
+
+Now lets revisit the phone number as a seed input: There are many orderly ways to pick out 2 distinct numbers from an arrangement of 10 digits--> 788 890 6754
+8's
+Let n = 10 and k =3
+nPk =  10!/3! = 604,800
+7's 
+let n= 7 and k=2
+       7!/2! = 2520
+singletons
+5! = 120
+Distinguished arrangement = 604,800*2520*120 = 182,891,520,000
+The above means that there are 182,891,520,000 ordered ways of arranging 788 890 6754
+								...
+						       88 89 06 75 47	
+						       88 90 67 54 78
+						       89 06 75 47 88
+						       		,...
+						       90 67 54 78 88
+						                ,...
+If I must arrange these numbers in five sets of two it will be another 5! Distinguished arrangement = 182,891,520,000 *120 = 
+# 21,946,982,400,000
+
+There is a whole algorithm to address non-repeat of the said digits of numbers and that is not within the paper's purview. Rest assured no number is repeated in the algorithm. Each of these 2 distinct numbers (seeds) from the 10 digit arrangementss are found on the matrix as positions (Pn). They will further generate another 680 digit long numbers following the certain algorithm. The 680 digit long numbers will be used as the encryption keys. Normally 5 sets of 680 digit long from Pn=1.+ Pn=2.+..Pn=5 are needed. At least, for the proposed reference implementation. Each position generates a once in a life time set of 680 digit number. This is actually emphasized in this paper.
 
 •Full M5 mechanism This method could operate on any DnA propped by any attribute. Note we will demonstrate DnA using password as input. We will also demonstrate volumetric data scheme using the message and any DnA as input for this algorithm. 
 
