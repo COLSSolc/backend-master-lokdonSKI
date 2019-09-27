@@ -226,7 +226,7 @@ You can also use message C in place of the password.
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/pasEncrypt.PNG)
 
 [
-							      Implementat Password encryption Fig. 4.0
+							      Implementation of password encryption Fig. 4.0
 								 						]
 					                                                                  
 													  
