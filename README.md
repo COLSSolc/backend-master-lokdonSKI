@@ -223,31 +223,22 @@ There is a whole algorithm to address non-repeat of the said digits of numbers a
 
 You can also use message C in place of the password.
 
-Password + silent password = CT1 --> M1 encrypt --- [ciphertext1]^[P spktn][P ktn]                  M1
-
-CT1 + silent password = CT2 --> M2 encrypt --- [ciphertext2]^[P spktn][P ktn ]                      M2
-
-CT2 + silent password = CT3 --> M3 encrypt --- [ciphertext3]^[P spktn][P ktn ]                      M3
-
-CT3 + silent password = CT4 --> M4 encrypt --- [ciphertext4]^[P spktn][P ktn ]                      M4
-
-CT4 + silent password = CT5 --> M5 encrypt --- [ciphertext5]^[P spktn][P ktn ]                      M5
-
+![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/pasEncrypt.png)
+[
+							      Implementat Password encryption Fig. 4.0
+								 						]
+					                                                                  ]
+													  
 When an offset is added to the length of the encrypted message C or CT (ciphertext). That no longer represents the length of the message. Rather a periodic key D is used to stream the length of the message. This does not void the condition of the classical stream cipher requirements: Superficially, each byte of the plaintext and ciphertext are one to one function (bijecture) since both share similar length as the key size. However, a detailed observation proves a distribution that shows n numbers of ciphertext for any plaintext. There is an introduction of randomization by using some random and periodic string k (silent password (SL) as used randomly in this reference). This string is also reverse in turn. This increases the entropy of key length bearing a perfect secrecy [6]. Especially the one-time pad scenario cannot outlive the philosophy:
 
 "Perfect secrecy is a strong notion of cryptanalytic difficulty".
 
 Also note that in as much as the keys are seeded and generated. The dynamic distribution scheme of the keys make certain; no expended key will be generated from the faces of the lattice position (Pn) or the matrix. And neither will the generated keys be used be used again. Every 680 long key is used just once. Let’s explore volumetric data scheme in this algorithm. We are or-ing the message with the modular PIN (MPIN). A PIN is naturally 4-6 digits numbers. In this reference two characters represent each of the PIN numbers making the overall string (characters) length 2 * PIN.
  
-Data + mpin encrypt = CT1 --> M1 encrypt -->[ciphertext1]^[mpinm3 encrypt]^[Pktn]^[P mpinktn] -- >   M1
-
-M1 + mpin encrypt = CT2 --> M2 encrypt -->[ciphertext2]^[mpinm2 encrypt]^[Pktn]^[P mpinktn] -- >     M2
-
-M2 + mpin encrypt = CT3 --> M3 encrypt -->[ciphertext3]^[mpinm2 encrypt]^[Pktn=3]^[P mpinktn=3] -- > M3
-
-M3 + mpin encrypt = CT4 --> M4 encrypt -->[ciphertext4]^[mpinm2 encrypt]^[Pktn]^[P mpinktn] -- >     M4
-
-M4 + mpin encrypt = CT5 --> M5 encrypt -->[ciphertext5]^[mpinm2 encrypt]^[Pktn]^[P mpinktn] -- >     M5
+![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/Data_encryption.png)
+[
+							    Implementation of data encryptoin Fig.5.0
+					                                                               ]   ]
 
 Following the above process, the mpin encrypt shown is that of the recipients. If one is sending a message requiring ZKP. For example, M3 mpin of position (P mpinktn=3) is tripped and sent with the message:
 
