@@ -223,7 +223,7 @@ There is a whole algorithm to address non-repeat of the said digits of numbers a
 
 You can also use message C in place of the password.
 
-![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/pasEncrypt.png)
+![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/pasEncrypt.PNG)
 
 [
 							      Implementat Password encryption Fig. 4.0
@@ -236,7 +236,7 @@ When an offset is added to the length of the encrypted message C or CT (cipherte
 
 Also note that in as much as the keys are seeded and generated. The dynamic distribution scheme of the keys make certain; no expended key will be generated from the faces of the lattice position (Pn) or the matrix. And neither will the generated keys be used be used again. Every 680 long key is used just once. Let’s explore volumetric data scheme in this algorithm. We are or-ing the message with the modular PIN (MPIN). A PIN is naturally 4-6 digits numbers. In this reference two characters represent each of the PIN numbers making the overall string (characters) length 2 * PIN.
  
-![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/Data_encryption.png)
+![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/Data_encryption.PNG)
 
 [
 							    Implementation of data encryptoin Fig.5.0
