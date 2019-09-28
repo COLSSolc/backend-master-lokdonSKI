@@ -144,7 +144,7 @@ To Prove:
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/3DM_PROVE.png)
 
 [
-				Three DimensionAL matching on OKT Fig. 3.0 
+				3Dimensional matching reduction to OKT Fig. 3.0 
 				 								           ]
 													   
 It is noted that in a deterministic Turing machine the answer is in affirmative for all inputs following the algorithm. You have the graph and the path to trace. This is quite analogous to the knight on a standard chase board. This same analogy is akin to non-deterministic mechanism given any input for decision of Y (black) or N (white). In this is more like a black dot or white square.
