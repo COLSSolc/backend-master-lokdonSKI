@@ -72,6 +72,7 @@ Let the matrix A    =  I/A , by joining identity matrix I to A.
 	Ciphertext produced after the transformation of AES will have just a key to lead to a plaintext.
 
 	The constant nature of the produced ciphertext will make it susceptible to byte-wise brute-force attacks.
+	
 According the substitution box (S-box) AES. This matrix is based on Rijndael finite field. An attack byte-wise will be successful today. One will have about 256 options or combinations for each byte in the 32byte arrangement of 256 bits block of AES. This means that in a 256 bits AES block size. Each sub block contains at the most 4 bytes or 32 bits. There are about 256 elements that could fit in one sub block at some point. This sub block will have about (256 s-box elements * 32 sub blocks) = 8192 combination of s-box elements or 32bits in it. Here 32 bits is equivalent to double words. Attacking bitwise could seem hopeless at first but going about the attack from byte perspective is another smart way achieving the same goal. A study of the diagram in fig. 1.0 will quickly show why attacking in byte-wise will be successful. It is much better to integrate the bits in a way to have more structure or see patterns in context. No secret is yet revealed to the polynocial adversary.
 
 # SOLUTION TO THE PROBLEM:
