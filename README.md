@@ -87,7 +87,9 @@ There is a need to be proactive. One’s intent will be to find the right soluti
 Asymmetric:
 Encrypted data ( c ) = msge mod N
 Decrypted data (msg) = cd mod N
+
 It is clear from the above that an assailant only requires (d, N) to decrypt the message. Although, this does not apply to AES in mathematically sense. It quietly applies in byte-wise brute force of AES cipher key. 
+
 Symmetric:
 Let Ct = cipher template length; where the length is the same as the keys used to perform wholistic encryption of the message. The message is added to extended key K of period D which could be a 64 bits passphrase or more. Note that, a modulo arithmetic (XOR) is used herein. It is a common knowledge that AES is one form of the family of symmetric key cryptography. The strength of AES is synonymous to the irreducibility of polynomials of GF (28) or 8th degree. Symmetric key cryptography (SKC) uses a secret key: They are commonly known as passwords or passphrases and mostly manual driven. It is interesting to note that the key used to perform the actual encryption in AES sometimes are derived from these passwords via key derivation mechanism capable of a pseudo random number generator (PRNG). Password based key derivation function (PBKDF-2) is a good example.
 
