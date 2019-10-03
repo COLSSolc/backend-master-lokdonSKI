@@ -321,30 +321,32 @@ All are totaled at 256 bytes (2048 bits)
 
 # ADVANTAGES OF THE NEW APPROACH or AXIOMS:
 
-1. GF 2^p where p =< 8; -> GF 2^p, where p !<8 && p > 8 || 00 (or goes to infinity).
+1.	GF 2p where p =< 8; Solutions are not longer bounded within irreducible polynomial of 8th degree. GF 2p is submitted under new conditions where p !<8 & p > 8 | ꚙ (or goes to infinity).
 
-2. Non-Deterministic polynomial reduction insinuates that a hard problem arises from 16 * 16 matrix e.g It is possible to easily embed OKT as a hard (NP-Complete) problem with other complexities and biases to derive ciphertext from cryptographic engine. It is also noted that this very system does not originate lattice base cryptography but shades light on the form.
+2.	Non-Deterministic reduction insinuates that hard problem arises from 16 * 16 matrix e.g We embodied OKT as a hard (NP-Complete) problem with other complexities and biases to derive ciphertext from cryptographic engine. It is also noted that this very system does not originate lattice base cryptography but shades light on the form.
 
-3. Open Knight's tour (OKT) could not be solved in polynomial time within unbounded field. A matrix of scope (n x n 16=<n) is of bounded field. The matrix could hold solutions of OKT just like the elements of lattice vertices. The changing nature of the nodes owing to the decision needed to advance to another element happens as a deterministic reduction. There is also a randomized reduction of seeding the key generation. The bigger the scope the more time it will take to negotiate and decide a fitting node just like in neural networks. With this in view balancing symmetric stream of significant block (key) size, encryption time and implementation could yield cryptography of the future.
+3.	Knight's tour (KT) could NOT be solved in polynomial time within unbounded field. A matrix of scope is of bounded field that could hold solutions of KT just like the elements of lattice basis. The changing nature of the nodes owing to the decision needed to advance to another element happened as a deterministic reduction. There is also a randomized reduction of seeding the key generators. The bigger the scope the more time it will take to negotiate and decide a fitting node just like in neural networks. With this in view balancing symmetric stream of block (key) significant size, encryption time and implementation could yield cryptography of the future.
 
-4. Similarly, AES exhibits the characteristics observed by the movement of the values held in the indices of GF of scope 16 * 16 matrix or lattice basis. Each knight' tour opens at 0 position by tracing a clean sweep the elements of the matrix and closes at another position 255. Therefore, the new approach reflects:
-a. Sub bytes
-b. Addroundkeys
-c. shiftrow
-d. mixcolumns
-Using a mapping scheme of standard state (ST) to open knights tour (OKT) and multi-mode-wrapping to achieve the afore mentioned mechanism. Irreducible polynomial is no longer a question of symmetric cryptography. No key schedule or register. You can equally draw an analogy of 3-D space e.g a cube. A cube has faces (6), edges (12) and vertices (8). We are using the faces here: They have the largest number of vectors vis-a-vis largest flux [CG09]. 			                                     
-									   	     
-5. Cipher keys (P) are no longer saved as they are generated from any position on the matrix (lattice face) upon request by NP. Each position has a different set of numbers to be generated. 5 sets of (680 long digits) from 5 different positions are chosen from the matrix of 16*16 (256 bytes or 2048 bits). Attributes are chosen prior to be arranged into n=5 different modes of encrypt for each attribute or payload fed into mode one all the way to mode five (m1-m5).							     
-										     
-6. The keys always change for any single message because the position on the lattice face changes as you can get started from any indexed point or vector. The origin 0 to any other part produces a different entropy flux. While the order of the positions are regular(deterministic) they generate chaotic set of numbers. This generates a new set of 680digit long numbers. This knowledge reveals the changing nature of the message' ciphertext as well. When similar contents are encrypted the ciphertext are usually different. Thus, hashing could only be needed for CRC or message integrity check.  P!= NP || P not a subset NP. 
+4.	Similarly, AES exhibits the characteristics observed by the movement of the values held in the indices of GF of scope 16 * 16 matrix or lattice basis. Each knight' tour opens at 0 position by tracing a clean sweep the elements of the matrix and closes at another position 255. Therefore, the new approach: 
+a. Sub bytes 
+b. Addroundkeys 
+c. shiftrow 
+d. mixcolumns 
+Using a mapping scheme of ST to KT and multi-mode-wrapping to achieve the afore mentioned states. 
+Irreducible polynomial is no longer a question of symmetric key cryptography for the fact that quantum computers will probably solve them. The new protocol is a non-suspect because it has no key schedule or invertible linear. To understand this context is possible to draw an analogy of 3-D space e.g a cube. A cube has faces (6), edges (12) and vertices (8). We are using the faces here: These are external to the popular context in cryptography. They have the largest set of vectors (numbers) vis-a-vis largest flux.
 
-7. The output or ciphertext from the message input in M1 is used as input in M2. The ciphertext from mode two is used as the input in mode three M3. The ciphertect from mode three is used as input for mode four M4. The ciphertext from mode four is used as input for mode five M5. This is Homomorphic encryption mechanism. The homomorphic encryption (HE) properties makes possible the flexibility of the algorithm ( M1-M5) as public key encyrption. This encrypts from this wrapping technique could be used for ZKP.
+5.	Cipher keys are no longer saved as they are generated from any position on the matrix (lattice face) upon request. Each position has a different set of numbers to be generated. 5 sets of (680 long digits) from 5 different positions are chosen from the matrix of 16*16 (256 bytes or 2048 bits). Attributes are chosen prior to be arranged into n≤5 different modes of encrypt for each attribute or payload fed into mode one all the way to mode five (M1-M5).
 
-8. The complexity is O(n=message.length)
+6.	The keys always change for any single message because the position on the lattice face changes as well. You can get started from any indexed point or vector. The origin 0 to any other part produces a different entropy flux. The order of these positions is seemingly regular (deterministic), they generate chaotic set of numbers. A new set of 680digit long numbers. This knowledge reveals the changing nature of the message' ciphertext as well. When similar contents are encrypted the ciphertext are decisively different in the new order. 
+Thus, hashing could only be necessary for cyclic redundant check (CRC) or message integrity check. P! = NP || P not a subset NP.
 
-9. KEM, Digital signature and seeming public key encryption is built within the algorthm from the scratch. The mixes of attributes e.g MPIN, eFRI, Address and Password can bring about a God mode permision for IAM operations in all kinds of enviroments with respect to business logic reflected.
+7.	The output or ciphertext from the message input in M1 is used as input in M2. The ciphertext from mode two is used as the input in mode three (M.). The ciphertext from mode three is used as input for mode four (M4). The ciphertext from mode four is used as input for mode five M5. This protocol shows the characteristics of homomorphic encryption mechanism (HE) [11]. The homomorphic encryption (HE) properties makes possible the flexibility of the algorithm (M1-M5) as public key encryption management. These encrypts from this wrapping technique are used for ZKP.
 
-10.	Plain text to cipher text relationship is 1:n number of ciphertexts: This is necessary to establish HE.
+8.	The complexity is O (n = message.length )
+
+9.	Key encapsulation mechanism (KEM), digital signature and seeming public key encryption is built within the algorithm from the scratch. The change mode mix of attributes e.g MPIN, eFRI, Address and Password can give IAM operations facilitating god mode permissions in all kinds of environments with respect to business logic.
+
+10.	Plaintext to ciphertext relationship is (1: n>1) number of ciphertexts: This is necessary to establish HE.
 
 ASSUMPTIONS:									     		
 1. Modern primitives of cryptography only recognizes 2S or 2 stable standard signal state. e.g 0/1  
