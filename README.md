@@ -334,7 +334,7 @@ All are totaled at 256 bytes (2048 bits)
 
 # ADVANTAGES OF THE NEW APPROACH or AXIOMS:
 
-1.	GF 2p where p =< 8; Solutions are not longer bounded within irreducible polynomial of 8th degree. GF 2p is submitted under new conditions where p !<8 & p > 8 | ꚙ (or goes to infinity).
+1.	1.	GF 2p where p =< 8; solutions are no longer bounded by irreducible polynomial of 8th degree. GF 2p is submitted under new conditions where p !<8 & p > 8 | ꚙ (or goes to infinity).
 
 2.	Non-Deterministic reduction insinuates that hard problem arises from 16 * 16 matrix e.g We embodied OKT as a hard (NP-Complete) problem with other complexities and biases to derive ciphertext from cryptographic engine. It is also noted that this very system does not originate lattice base cryptography but shades light on the form.
 
