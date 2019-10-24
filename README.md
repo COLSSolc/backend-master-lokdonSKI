@@ -449,3 +449,5 @@ https://eprint.iacr.org/2012/533.pdf
 [11] https://www.cs.umd.edu/~huqi/MasterThesisR.pdf
 
 [12] https://en.wikipedia.org/wiki/One-time_pad#cite_note-shannon-3
+
+#This particular C++ program is licensed under GPL-3.0
