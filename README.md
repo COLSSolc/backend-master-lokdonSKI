@@ -4,8 +4,7 @@
 LokDon security research project:
 Josiah Johnson Umezurike | September 12th 2018
 
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)]
-(https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=access_token$sandbox$h47crhcnt8mmszv3$7a12c158be18fa1e3e8e341296a28860)
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclickhosted_button_id=access_token$sandbox$h47crhcnt8mmszv3$7a12c158be18fa1e3e8e341296a28860)
 
 *******************************************************************************************************************************!
 # Contents
