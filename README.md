@@ -4,7 +4,7 @@
 LokDon security research project:
 Josiah Johnson Umezurike | September 12th 2018
 
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](j_umezurike@yahoo.com)
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NXW4NYCNJS4EC&source=url)
 
 *******************************************************************************************************************************!
 # Contents
@@ -451,3 +451,4 @@ https://eprint.iacr.org/2012/533.pdf
 [12] https://en.wikipedia.org/wiki/One-time_pad#cite_note-shannon-3
 
 #This particular C++ program is licensed under GPL-3.0
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NXW4NYCNJS4EC&source=url)
